@@ -1,0 +1,373 @@
+{
+  "title": "REACTIMA",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "11": {
+      "title": "SECOND SERVER",
+      "id": 54,
+      "attr": {
+        "style": {
+          "background": "#ff6600"
+        },
+        "position": [
+          346.5,
+          -126,
+          21
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "DOCKER\nhttps://www.docker.com/\n",
+          "id": 41,
+          "ideas": {
+            "1": {
+              "title": "GITLAB\nhttps://gitlab.com/gitlab-org/gitlab-ce/tree/master/docker\n",
+              "id": 42,
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
+        },
+        "2": {
+          "title": "Why?",
+          "id": 43,
+          "ideas": {
+            "4": {
+              "title": "Build products",
+              "id": 55,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "InfluenceMap\nhttp://www.whodotheyserve.com/#/doc/about\n",
+                  "id": 44,
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "kola.js\nhttp://marvl.infotech.monash.edu/webcola/#\n",
+                      "id": 93
+                    }
+                  }
+                },
+                "2": {
+                  "title": "MindMup\nhttps://github.com/mindmup/mindmup\n",
+                  "id": 70
+                }
+              }
+            },
+            "5": {
+              "title": "Learn who to use interns",
+              "id": 58
+            },
+            "6": {
+              "title": "Have hackerthon boilerplate ",
+              "id": 59,
+              "ideas": {}
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
+        }
+      }
+    },
+    "12": {
+      "title": "WHY?",
+      "id": 77,
+      "attr": {
+        "style": {
+          "background": "#ff0000"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "#1 Complete HH Data Mining story",
+          "id": 78,
+          "ideas": {}
+        },
+        "2": {
+          "title": "#2 Learn how to scale",
+          "id": 79,
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "#3 Have geek fun",
+          "id": 80
+        },
+        "4": {
+          "title": "#4 Plan B for any economical circle",
+          "id": 81
+        },
+        "5": {
+          "title": "Reactive Manifesto\nhttp://www.reactivemanifesto.org/\n",
+          "id": 92,
+          "attr": {
+            "style": {},
+            "attachment": {
+              "contentType": "text/html",
+              "content": "<section id=\"the-reactive-manifesto\" style=\"padding-top: 20px; color: rgb(119, 119, 119); font-family: 'PT Serif', serif; font-size: 17px; line-height: normal;\"><h3 style=\"font-family: 'Helvetica Neue', sans-serif; color: rgb(119, 119, 119); font-size: 24px; margin-top: 2em; margin-bottom: 0px; font-weight: 100;\">Reactive Systems are:</h3></section><section id=\"responsive\" class=\"trait\" style=\"padding-top: 10px; margin: 0px 40px; color: rgb(119, 119, 119); font-family: 'PT Serif', serif; font-size: 17px; line-height: normal;\"><p style=\"line-height: 1.4em; margin-bottom: 5px;\"><strong style=\"color: rgb(68, 93, 233);\">Responsive:&nbsp;</strong>The&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#System\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">system</a>&nbsp;responds in a timely manner if at all possible. Responsiveness is the cornerstone of usability and utility, but more than that, responsiveness means that problems may be detected quickly and dealt with effectively. Responsive systems focus on providing rapid and consistent response times, establishing reliable upper bounds so they deliver a consistent quality of service. This consistent behaviour in turn simplifies error handling, builds end user confidence, and encourages further interaction.</p></section><section id=\"resilient\" class=\"trait\" style=\"padding-top: 10px; margin: 0px 40px; color: rgb(119, 119, 119); font-family: 'PT Serif', serif; font-size: 17px; line-height: normal;\"><p style=\"line-height: 1.4em; margin-bottom: 5px;\"><strong style=\"color: rgb(68, 93, 233);\">Resilient:&nbsp;</strong>The system stays responsive in the face of&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Failure\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">failure</a>. This applies not only to highly-available, mission critical systems — any system that is not resilient will be unresponsive after a failure. Resilience is achieved by&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Replication\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">replication</a>, containment,&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Isolation\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">isolation</a>&nbsp;and<a href=\"http://www.reactivemanifesto.org/glossary#Delegation\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">delegation</a>. Failures are contained within each&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Component\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">component</a>, isolating components from each other and thereby ensuring that parts of the system can fail and recover without compromising the system as a whole. Recovery of each component is delegated to another (external) component and high-availability is ensured by replication where necessary. The client of a component is not burdened with handling its failures.</p></section><section id=\"elastic\" class=\"trait\" style=\"padding-top: 10px; margin: 0px 40px; color: rgb(119, 119, 119); font-family: 'PT Serif', serif; font-size: 17px; line-height: normal;\"><p style=\"line-height: 1.4em; margin-bottom: 5px;\"><strong style=\"color: rgb(68, 93, 233);\">Elastic:&nbsp;</strong>The system stays responsive under varying workload. Reactive Systems can react to changes in the input rate by increasing or decreasing the&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Resource\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">resources</a>&nbsp;allocated to service these inputs. This implies designs that have no contention points or central bottlenecks, resulting in the ability to shard or replicate components and distribute inputs among them. Reactive Systems support predictive, as well as Reactive, scaling algorithms by providing relevant live performance measures. They achieve<a href=\"http://www.reactivemanifesto.org/glossary#Elasticity\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">elasticity</a>&nbsp;in a cost-effective way on commodity hardware and software platforms.</p></section><section id=\"message-driven\" class=\"trait\" style=\"padding-top: 10px; margin: 0px 40px; color: rgb(119, 119, 119); font-family: 'PT Serif', serif; font-size: 17px; line-height: normal;\"><p style=\"line-height: 1.4em; margin-bottom: 5px;\"><strong style=\"color: rgb(68, 93, 233);\">Message Driven:&nbsp;</strong>Reactive Systems rely on&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Asynchronous\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">asynchronous</a>&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Message-Driven\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">message-passing</a>&nbsp;to establish a boundary between components that ensures loose coupling, isolation,&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Location-Transparency\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">location transparency</a>, and provides the means to delegate&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Failure\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">errors</a>&nbsp;as messages. Employing explicit message-passing enables load management, elasticity, and flow control by shaping and monitoring the message queues in the system and applying&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Back-Pressure\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">back-pressure</a>&nbsp;when necessary. Location transparent messaging as a means of communication makes it possible for the management of failure to work with the same constructs and semantics across a cluster or within a single host.&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Non-Blocking\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">Non-blocking</a>communication allows recipients to only consume&nbsp;<a href=\"http://www.reactivemanifesto.org/glossary#Resource\" style=\"color: rgb(68, 93, 233); text-decoration: underline;\">resources</a>&nbsp;while active, leading to less system overhead.</p><img src=\"http://www.reactivemanifesto.org/images/reactive-traits.svg\" style=\"margin: 20px 0px;\"></section><section id=\"conclusion\" style=\"padding-top: 20px; color: rgb(119, 119, 119); font-family: 'PT Serif', serif; font-size: 17px; line-height: normal;\"><p style=\"line-height: 1.4em;\">Large systems are composed of smaller ones and therefore depend on the Reactive properties of their constituents. This means that Reactive Systems apply design principles so these properties apply at all levels of scale, making them composable. The largest systems in the world rely upon architectures based on these properties and serve the needs of billions of people daily. It is time to apply these design principles consciously from the start instead of rediscovering them each time.</p><div><br></div></section>"
+            }
+          },
+          "ideas": {}
+        },
+        "6": {
+          "title": "Reactive Product Ideas",
+          "id": 56,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Datameer clone\nhttp://www.datameer.com/",
+              "id": 64
+            }
+          }
+        },
+        "7": {
+          "title": "Reactive Services Ideas\n",
+          "id": 66,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Biotech",
+              "id": 67
+            },
+            "2": {
+              "title": "Top 400 Private",
+              "id": 68
+            }
+          }
+        }
+      }
+    },
+    "-12": {
+      "title": "REDIS\nhttp://redis.io/",
+      "id": 16,
+      "attr": {
+        "style": {
+          "background": "#ff0000"
+        },
+        "position": [
+          167,
+          76.5,
+          1
+        ]
+      },
+      "ideas": {
+        "2": {
+          "title": "Fast filter \nhttp://habrahabr.ru/post/261137/\n",
+          "id": 88
+        }
+      }
+    },
+    "-14.5": {
+      "title": "Apache",
+      "id": 91,
+      "attr": {
+        "style": {}
+      },
+      "ideas": {
+        "2": {
+          "title": "Phalcon.php\nhttps://phalconphp.com/\n",
+          "id": 13,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {}
+        }
+      }
+    },
+    "-18.25": {
+      "title": "MMonit\nhttps://mmonit.com/\n",
+      "id": 39,
+      "attr": {
+        "style": {
+          "background": "#ff0000"
+        },
+        "position": [
+          166,
+          84,
+          13
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Add all services",
+          "id": 90,
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
+        }
+      }
+    },
+    "-7": {
+      "title": "CONSIDER",
+      "id": 33,
+      "attr": {
+        "position": [
+          433,
+          -180,
+          16
+        ],
+        "style": {
+          "background": "#ffffff"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "MariaDB>PostgreSQL\nhttp://www.postgresql.org/\n",
+          "id": 34,
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
+        },
+        "2": {
+          "title": "Apache>Nginx\nhttps://www.nginx.com/blog/\n",
+          "id": 35,
+          "attr": {
+            "style": {
+              "background": "#ffffff"
+            }
+          }
+        },
+        "3": {
+          "title": "Varnish\nhttps://www.varnish-cache.org/\n",
+          "id": 63,
+          "attr": {
+            "style": {
+              "background": "#ffffff"
+            }
+          }
+        },
+        "4": {
+          "title": "Travis CI\nhttps://travis-ci.org/",
+          "id": 71,
+          "attr": {
+            "style": {
+              "background": "#ffffff"
+            }
+          }
+        },
+        "5": {
+          "title": "Jira",
+          "id": 72,
+          "attr": {
+            "style": {
+              "background": "#ffffff"
+            }
+          }
+        },
+        "6": {
+          "title": "Kanban",
+          "id": 73,
+          "attr": {
+            "style": {
+              "background": "#ffffff"
+            }
+          }
+        },
+        "7": {
+          "title": "Solr>Elastic?",
+          "id": 89,
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          }
+        },
+        "8": {
+          "title": "KALI LINUX",
+          "id": 131,
+          "ideas": {
+            "1": {
+              "title": "Dual boot\nhttp://docs.kali.org/installation/kali-linux-dual-boot-on-mac-hardware\n",
+              "id": 132
+            }
+          }
+        },
+        "9": {
+          "title": "Cloud9\nhttps://github.com/c9/core\n",
+          "id": 74,
+          "attr": {
+            "style": {}
+          }
+        },
+        "10": {
+          "title": "Learn Scala+Akka+Spark",
+          "id": 38,
+          "attr": {
+            "style": {
+              "background": "#ff0000"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "ADAM\nhttps://github.com/bigdatagenomics/adam\n",
+              "id": 47
+            },
+            "3": {
+              "title": "#2 Play VK dataset",
+              "id": 48
+            }
+          }
+        }
+      }
+    },
+    "-9.5": {
+      "title": "SOLR\nhttp://lucene.apache.org/solr/",
+      "id": 17,
+      "attr": {
+        "style": {
+          "background": "#ff0000"
+        },
+        "position": [
+          201.5,
+          -23,
+          22
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Faceted Search\nhttp://lucene.apache.org/solr/quickstart.html\n",
+          "id": 100
+        },
+        "2": {
+          "title": "Upgrade 4>5",
+          "id": 101
+        }
+      }
+    }
+  },
+  "attr": {
+    "style": {
+      "background": "#ff6600"
+    }
+  },
+  "links": []
+}
