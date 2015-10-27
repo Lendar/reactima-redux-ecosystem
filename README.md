@@ -8,7 +8,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Documentation of Redux](http://rackt.github.io/redux)
 
 ### PACKAGE.JSON
-* [React.js](http://facebook.github.io/react)
+* [React.js](http://facebook.github.io/react) 
 * [Immutable.js](https://facebook.github.io/immutable-js/) READ MORE [Notes/Immutable.md](Notes/Immutable.md)
   * [Immutable Data Structures and JavaScript](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
 * [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
