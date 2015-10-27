@@ -8,9 +8,10 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Documentation of Redux](http://rackt.github.io/redux)
 
 ### OTHER TOOLS & LIBRARIES
+* [npm:book:](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [React.js Official](http://facebook.github.io/react)
-* [Immutable.js Doc](https://facebook.github.io/immutable-js/)
-* [Immutable.js Github](https://github.com/facebook/immutable-js/)
+* [Immutable.js:book:](https://facebook.github.io/immutable-js/)
+* [Immutable.js:github:](https://github.com/facebook/immutable-js/)
 * [Webpack Official] (https://webpack.github.io/)
 * (Mocha Official)[http://mochajs.org] - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces) 
 * (Mocha Github)[https://github.com/mochajs/mocha]
@@ -20,7 +21,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [JSCS — JavaScript Code Style](http://jscs.info/) from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
 * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
-* [lodash Doc] (https://lodash.com/docs#map)
+* [lodash:book:] (https://lodash.com/docs#map)
 * [lodash Github] (https://github.com/lodash/lodash/blob/master/lodash.js#L31)
 * [Debugging Memory Leaks in Node.js Applications](http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications)
 * [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
