@@ -6,6 +6,7 @@
 * [Grafana](http://grafana.org/) - the leading graph and dashboard builder for visualizing time series metrics. 
 * [tj/mon](https://github.com/tj/mon) tj's replacement of monit
 * [AWS in plain English](https://www.expeditedssl.com/aws-in-plain-english)
+* [:fire:Visualizing Docker Containers and Images](http://merrigrove.blogspot.ru/2015/10/visualizing-docker-containers-and-images.html)
 
 ### Security
 * [OAuth Has Ruined Everything](http://developer.telerik.com/featured/oauth-has-ruined-everything/)

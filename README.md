@@ -3,7 +3,7 @@
 
 Redux - Predictable state container for JavaScript apps which makes you forget about all other frameworks, tools, ecosystems or even coming [WebAssembly] ( https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.1x0ooowqn). Makes you believe that you are in control on apps state and data flow.
 
-* Creators: [Dan Abramov](https://github.com/gaearon), Redux Mafia [React Europe](https://www.react-europe.org/), [Rackt](https://github.com/orgs/rackt/people)
+* Redux Mafia: [Dan Abramov](https://github.com/gaearon), [React Europe](https://www.react-europe.org/), [Rackt](https://github.com/orgs/rackt/people)
 * [Redux Github](https://github.com/rackt/redux)
 * [Documentation of Redux](http://rackt.github.io/redux)
 
@@ -18,9 +18,10 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [Webpack] (https://webpack.github.io/)
 * [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces)
-* Babel 
+* [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
+* [SASS](https://github.com/sass/sass)
 * [PostCSS](https://github.com/postcss/postcss)
-* [ ]PostCSS vs SASS
+* [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
 * [JSCS — JavaScript Code Style](http://jscs.info/) from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
 * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
@@ -41,6 +42,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 ### Boilerplates
 * Check original awesome-redux [xgrommx/awesome-redux ;))) ](https://github.com/xgrommx/awesome-redux)
 
+* [Ripster](https://github.com/vslinko/ripster)
 * [Koa :octocat:](https://github.com/koajs/koa)
     * [Isomorphic (Koa + Redux)](https://github.com/khtdr/redux-react-koa-isomorphic-counter-example) :metal:
     * [isomorphic-react-redux-koa](https://github.com/davezuko/isomorphic-react-redux-koa) :metal:
@@ -54,9 +56,6 @@ Check [TRASH](TRASH.md)
 
 ### Tools
 * [redux-devtools - DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
-
-### TODO: REVIEW & REMOVE Frameworks
-* [Ripster :octocat:](https://github.com/vslinko/ripster)
 
 ---
 
