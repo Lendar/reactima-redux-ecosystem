@@ -3,8 +3,7 @@
 
 Redux - Predictable state container for JavaScript apps which makes you forget about all other frameworks, tools, ecosystems or even coming [WebAssembly] ( https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.1x0ooowqn). Makes you believe that you are in control on apps state and data flow.
 
-* Creator [Dan Abramov](https://github.com/gaearon)
-* [React Europe](https://www.react-europe.org/)
+* Creators: [Dan Abramov](https://github.com/gaearon), Redux Mafia [React Europe](https://www.react-europe.org/), [Rackt](https://github.com/orgs/rackt/people)
 * [Redux Github](https://github.com/rackt/redux)
 * [Documentation of Redux](http://rackt.github.io/redux)
 
