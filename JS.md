@@ -26,8 +26,8 @@ x Back [REDUX] (README.md) or ... [DEVOPS] (DEVOPS.md)
 * Eric Elliott [Stop Using Constructor Functions In JavaScript 2012](http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript/)
 * Eric Elliott [JavaScript Constructor Functions Vs Factory Functions 2013](http://ericleads.com/2013/01/javascript-constructor-functions-vs-factory-functions/)
 * :muscle: Eric Elliott [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.23df3eq1y)
-> If you don’t understand prototypes,
-> you don’t understand JavaScript.
+```If you don’t understand prototypes,
+you don’t understand JavaScript.```
 * Dan Abramov [How to Use Classes and Sleep at Night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4#.b72gk999t)
 
 
