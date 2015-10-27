@@ -16,6 +16,9 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 ### TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [Webpack] (https://webpack.github.io/)
+- [ ] Learn how to reduce css
+- [ ] Learn how to split js code for faster downloads 
+- [ ] Research Webpack with JSCS+ESLint+Airbnb
 * [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces)
 * [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
 * [SASS](https://github.com/sass/sass)
