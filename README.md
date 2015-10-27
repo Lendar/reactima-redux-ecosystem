@@ -10,21 +10,20 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 ### OTHER TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [React.js](http://facebook.github.io/react)
-* [Immutable.jsOfficial](https://facebook.github.io/immutable-js/) [:octocat:/facebook/immutable-js/](https://github.com/facebook/immutable-js/)
+* [Immutable.js](https://facebook.github.io/immutable-js/) [:octocat:](https://github.com/facebook/immutable-js/)
 * [Webpack] (https://webpack.github.io/)
-* [Mocha Official](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces) [:octocat:/mochajs/mocha](https://github.com)
+* [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces) [:octocat:](https://github.com/mochajs/mocha)
 * Babel 
-* [PostCSS :octocat:](https://github.com/postcss/postcss)
+* [PostCSS:octocat:](https://github.com/postcss/postcss)
 * [ ]PostCSS vs SASS
 * [JSCS — JavaScript Code Style](http://jscs.info/) from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
 * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
-* [lodash :book:] (https://lodash.com/docs#map)
-* [lodash :octocat:] (https://github.com/lodash/lodash/blob/master/lodash.js#L31)
+* [lodash] (https://lodash.com/docs#map) [:octocat:] (https://github.com/lodash/lodash/blob/master/lodash.js#L31)
 * [Debugging Memory Leaks in Node.js Applications](http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications)
 * [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 * [Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
-* [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
+* [superagent:octocat:](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
 
 
 ### Articles And Tutorials
