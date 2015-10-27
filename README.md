@@ -66,45 +66,15 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 
 
 ### Tools
+* Andrew Clark @acdlite https://github.com/acdlite
 * [redux-devtools - DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
-### [ ] Sort
-* [redux-tiny-router - A Router made for Redux, stop using the router as a controller it's just state!](https://github.com/Agamennon/redux-tiny-router)
+* READ! [replux - Self contained components and enhancements for Redux](https://github.com/gregthebusker/replux)
 * [redux-devtools-gentest-plugin - Generate mocha like tests from redux-devtools session](https://github.com/lapanoid/redux-devtools-gentest-plugin)
-* [redux-action-utils - Factory functions for reducing action creator boilerplate (pun not intended)](https://github.com/insin/redux-action-utils)
-* [generator-redux - CLI tools for Redux: next-gen functional Flux/React with devtools](https://github.com/banderson/generator-redux)
-* [generator-redux-app - Scaffold out a redux app with counter example and react-router](https://github.com/chentsulin/generator-redux-app)
 * [redux-loader - A high order component for Redux. This components loads resources and passes them to the child components via props](https://github.com/sporto/redux-loader)
-* [redux-rest - Automatically create Flux action constants, action creators and Redux reducers for your REST API](https://github.com/Kvoti/redux-rest)
 * [redux-api - Flux REST API for redux infrastructure](https://github.com/lexich/redux-api)
-* [vstack-router - Universal router](https://github.com/vslinko/vstack-router)
-* [redux-ecommerce - E-commerce flux with redux](https://github.com/Tom-Alexander/redux-ecommerce)
 * [redux-form - An ES7 decorator for forms using Redux and React](https://github.com/erikras/redux-form)
-* [https://github.com/calesce/redux-slider-monitor](https://github.com/calesce/redux-slider-monitor)
-* [updeep - Easily update nested frozen objects and arrays in a declarative and immutable manner](https://github.com/substantial/updeep)
-* [redux-immutable - Streamlines use of Immutable.js with Redux reducers.](https://github.com/gajus/redux-immutable)
-* [redux-import-export-monitor - A monitor for copying your serialized action log to the clipboard, as well as pasting it in from somewhere else](https://github.com/lapanoid/redux-import-export-monitor)
-* [icedam - Just-in-time immutability: freezes data sent to views.](https://github.com/winkler1/icedam)
-* [react-inline-grid - Predictable flexbox based grid for React using Redux and Immutable-js.](https://github.com/broucz/react-inline-grid)
-* [redux-easy-actions - Sugar library for creating Redux or Flux actions](https://github.com/grigory-leonenko/redux-easy-actions)
-* [redux-multi - Dispatch multiple actions from one action creator](https://github.com/ashaffer/redux-multi)
-* [immu - A tiny, fail-fast, lazy, immutable Javascript objects library](https://github.com/scottcorgan/immu)
-* [Generate standard action creators and reducers for CRUD applications](https://github.com/Versent/redux-crud)
-* [Redux & ImmutableJs - Integration of Redux & ImmutableJs that 100% conforms Redux standards](https://github.com/indexiatech/redux-immutablejs)
-* [redux-tcomb - Immutable and type-checked state and actions for Redux](https://github.com/gcanti/redux-tcomb)
-* [redux-react-router-transitions - Attach react-router transitions to arbitrary actions](https://github.com/johanneslumpe/redux-react-router-transitions)
 * [redux-optimist - Optimistically apply actions that can be later commited or reverted.](https://github.com/ForbesLindesay/redux-optimist)
 * [redux-devtools-diff-monitor - Redux DevTools – Diff Monitor](https://github.com/whetstone/redux-devtools-diff-monitor)
-* [redux-store-visualizer - Visualize Redux store in real time](https://github.com/romseguy/redux-store-visualizer)
-* [generator-redux - CLI tools for Redux: next-gen functional Flux/React with devtools](https://github.com/banderson/generator-redux)
-* [redux-viewmodel - ViewModel wrapping for Redux & React](https://github.com/tdzl2003/redux-viewmodel)
-* [redux-utils - Utility functions for Redux](https://github.com/newtack/redux-utils)
-* [multireducer - A utility to wrap many copies of a single Redux reducer into a single key-based reducer](https://github.com/erikras/multireducer)
-* [subdivide - User defined UI layout: Every pane can be subdivided and any widget assigned to any pane](https://github.com/philholden/subdivide)
-* [redux-viewmodel - ViewModel wrapping for Redux & React](https://github.com/tdzl2003/redux-viewmodel)
-* [replux - Self contained components and enhancements for Redux](https://github.com/gregthebusker/replux)
-* [redux-immutable-utils - Utilities for using Immutable with Redux](https://github.com/aparticka/redux-immutable-utils)
-* [redux-governor - A basic tool for quickly creating state managers (actions + reducers) to use with Redux](https://github.com/tshelburne/redux-governor)
-* [recompose - A microcomponentization toolkit for React](https://github.com/acdlite/recompose)
 
 ## UI Kits
 * [React UI Kit reapp.io](http://reapp.io/)
@@ -121,5 +91,5 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [EMOJI CHEAT SHEET](http://www.emoji-cheat-sheet.com/)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-### More 
-Check [TRASH](TRASH.md) or original awesome-redux [xgrommx/awesome-redux ;))) ](https://github.com/xgrommx/awesome-redux)
+### Want more? 
+Check original awesome-redux [xgrommx/awesome-redux ;))) ](https://github.com/xgrommx/awesome-redux)
