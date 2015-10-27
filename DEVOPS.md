@@ -1,5 +1,5 @@
 ## Devops links for Node.js enviroment
-[ ] Clean this garbage 
+- [ ] Clean this garbage 
 * [97-things-every-programmer-should-know](https://github.com/xmalinov/97-things-every-programmer-should-know/blob/master/en/SUMMARY.md)
 * [What PostgreSQL has over other open source SQL databases: Part II](https://www.compose.io/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/)
 * [Grafana](http://grafana.org/) - the leading graph and dashboard builder for visualizing time series metrics. 
