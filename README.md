@@ -10,10 +10,9 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 ### OTHER TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [React.js](http://facebook.github.io/react)
-* [Immutable.js](https://facebook.github.io/immutable-js/)[:octocat:/facebook/immutable-js/](https://github.com)
+* [Immutable.jsOfficial](https://facebook.github.io/immutable-js/) [:octocat:/facebook/immutable-js/](https://github.com/facebook/immutable-js/)
 * [Webpack] (https://webpack.github.io/)
-* (Mocha Official)[http://mochajs.org] - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces) 
-* [Mocha :octocat:](https://github.com/mochajs/mocha)
+* [Mocha Official](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces) [:octocat:/mochajs/mocha](https://github.com)
 * Babel 
 * [PostCSS :octocat:](https://github.com/postcss/postcss)
 * [ ]PostCSS vs SASS
