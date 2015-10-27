@@ -8,21 +8,21 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Documentation of Redux](http://rackt.github.io/redux)
 
 ### OTHER TOOLS & LIBRARIES
-* [npm:book:](https://docs.npmjs.com/getting-started/what-is-npm) 
+* [npm :book:](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [React.js Official](http://facebook.github.io/react)
-* [Immutable.js:book:](https://facebook.github.io/immutable-js/)
-* [Immutable.js:git:](https://github.com/facebook/immutable-js/)
+* [Immutable.js :book:](https://facebook.github.io/immutable-js/)
+* [Immutable.js :octocat:](https://github.com/facebook/immutable-js/)
 * [Webpack Official] (https://webpack.github.io/)
 * (Mocha Official)[http://mochajs.org] - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces) 
-* (Mocha Github)[https://github.com/mochajs/mocha]
+* [Mocha :octocat:](https://github.com/mochajs/mocha)
 * Babel 
-* [PostCSS](https://github.com/postcss/postcss)
+* [PostCSS :octocat:](https://github.com/postcss/postcss)
 * [ ]PostCSS vs SASS
 * [JSCS — JavaScript Code Style](http://jscs.info/) from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
 * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 * [lodash:book:] (https://lodash.com/docs#map)
-* [lodash Github] (https://github.com/lodash/lodash/blob/master/lodash.js#L31)
+* [lodash :octocat:] (https://github.com/lodash/lodash/blob/master/lodash.js#L31)
 * [Debugging Memory Leaks in Node.js Applications](http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications)
 * [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 * [Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
@@ -42,7 +42,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 ### Boilerplates
 * Check original awesome-redux [xgrommx/awesome-redux ;))) ](https://github.com/xgrommx/awesome-redux)
 
-* [Koa](https://github.com/koajs/koa)
+* [Koa :octocat:](https://github.com/koajs/koa)
     * [Isomorphic (Koa + Redux)](https://github.com/khtdr/redux-react-koa-isomorphic-counter-example) :metal:
     * [isomorphic-react-redux-koa](https://github.com/davezuko/isomorphic-react-redux-koa) :metal:
     * [Sliced Haskell fragments](https://github.com/rwilhelm/slices) Universal + RethinkDB + ElasticSearch + lots of good stuff :fire:
@@ -57,7 +57,7 @@ Check [TRASH](TRASH.md)
 * [redux-devtools - DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 
 ### TODO: REVIEW & REMOVE Frameworks
-* [Ripster](https://github.com/vslinko/ripster)
+* [Ripster :octocat:](https://github.com/vslinko/ripster)
 
 ---
 
