@@ -45,4 +45,3 @@ you don’t understand JavaScript.
 
 ### MindMUP
 * [MindMUP] (https://www.mindmup.com/#m:new-a-1437127805759)
-* [My ES6 Study in MindMUP ;)))] (/MindMUP/ES6)
