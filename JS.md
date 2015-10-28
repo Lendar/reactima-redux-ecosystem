@@ -8,7 +8,7 @@ Back [REDUX] (README.md) or ... [DEVOPS TRASH] (DEVOPS.md)
 * [10 Interview Questions Every JavaScript Developer Should Know AKA: The Keys to JavaScript Mastery] (https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 * [Interview questions by Paul Irish ] (http://h5bp.github.io/Front-end-Developer-Interview-Questions/)
 * [How to design large AngularJS applications that scale Sebastian Fröstl and Gernot Höflechner] (https://www.youtube.com/watch?v=eel3mV0alEc)
-* [Babel Repl, https://babeljs.io/repl/](https://babeljs.io/repl/)
+
 
 ### (:tea:FUN)CTIONAL Books on ES6/ES2015
 * :muscle: [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
