@@ -32,7 +32,6 @@ you don’t understand JavaScript.
 ```
 * Dan Abramov [How to Use Classes and Sleep at Night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4#.b72gk999t)
 
-
 ### :clapper:Video
 * mpjme [Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 
