@@ -20,12 +20,15 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Webpack] (https://webpack.github.io/)
 - [ ] Learn how to reduce css
 - [ ] Learn how to split js code for faster downloads 
-- [ ] Research Webpack with JSCS+ESLint+Airbnb
 * [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces)
 * [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
-* [SASS](https://github.com/sass/sass)
-* [PostCSS](https://github.com/postcss/postcss)
-* [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
+* [CSS Modules](https://github.com/css-modules/css-modules) 
+  * [CSS Modules Welcome to the Future](http://glenmaddern.com/articles/css-modules)
+  * [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
+  * [SASS](https://github.com/sass/sass)
+  * [PostCSS](https://github.com/postcss/postcss)
+- [ ] Learn how to reduce css
+- [ ] CSS Modules vs Compare PostCSS vs SASS
 * [JSCS — JavaScript Code Style](http://jscs.info/) from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
 * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
