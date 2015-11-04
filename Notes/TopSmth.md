@@ -22,15 +22,15 @@
 
   * [Fiddler](http://www.telerik.com/fiddler)
   * [GitLab](https://about.gitlab.com/) 
-  * [Codility.com test](https://codility.com/demo/take-sample-test/)
-  * [Codility lessons](https://codility.com/programmers/lessons/
+  * [Codility](https://codility.com/) https://codility.com/demo/take-sample-test/)
+  * https://codility.com/programmers/lessons/)
   
-### MIX
-* TopTal [yuriy babenko rant](http://yuriybabenko.com/blog/my-experience-joining-toptal)
-* TopTal [25 Essential JavaScript Interview Questions](http://www.toptal.com/javascript/interview-questions)
-* TopTal [Getting into Toptal: Interview](https://medium.com/@jsuchal/getting-into-toptal-7eecd8d21cd3)
-* TopTal [Toptal interview process explained](http://julienrenaux.fr/2015/06/18/toptal-interview-process-explained/)
-* Must [JavaScript background to have before any job interview with top companies](http://julienrenaux.fr/2015/05/25/javascript-background-to-have-before-any-job-interview-with-top-companies/)
+### TopTal MIX
+* [yuriy babenko rant](http://yuriybabenko.com/blog/my-experience-joining-toptal)
+* [25 Essential JavaScript Interview Questions](http://www.toptal.com/javascript/interview-questions)
+* [Getting into Toptal: Interview](https://medium.com/@jsuchal/getting-into-toptal-7eecd8d21cd3)
+* [Toptal interview process explained](http://julienrenaux.fr/2015/06/18/toptal-interview-process-explained/)
+* [JavaScript background to have before any job interview with top companies](http://julienrenaux.fr/2015/05/25/javascript-background-to-have-before-any-job-interview-with-top-companies/)
 
 ### Coursera
 *[Coursera: Algorithms, Part I](https://www.coursera.org/course/algs4partI)
