@@ -22,8 +22,8 @@
 
   * [Fiddler](http://www.telerik.com/fiddler)
   * [GitLab](https://about.gitlab.com/) 
-  * [Codility](https://codility.com/) https://codility.com/demo/take-sample-test/)
-  * https://codility.com/programmers/lessons/)
+  * [Codility](https://codility.com/) https://codility.com/demo/take-sample-test/
+  * https://codility.com/programmers/lessons/
   
 ### TopTal MIX
 * [yuriy babenko rant](http://yuriybabenko.com/blog/my-experience-joining-toptal)
