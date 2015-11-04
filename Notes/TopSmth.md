@@ -22,7 +22,7 @@
 * TopTal [Toptal interview process explained](http://julienrenaux.fr/2015/06/18/toptal-interview-process-explained/)
 * Must [JavaScript background to have before any job interview with top companies](http://julienrenaux.fr/2015/05/25/javascript-background-to-have-before-any-job-interview-with-top-companies/)
 
-*[Coursera: Algorithms, Part I](https://www.coursera.org/course/algs4partI)
-*[Coursera: Algorithms, Part II](https://www.coursera.org/course/algs4partII)
+*[Coursera: Algorithms, Part I] (https://www.coursera.org/course/algs4partI)
+*[Coursera: Algorithms, Part II] (https://www.coursera.org/course/algs4partII)
 *[Coursera: Algorithms: Design and Analysis, Part I](https://www.coursera.org/course/algo)
 *[Coursera: Algorithms: Design and Analysis, Part II](https://www.coursera.org/course/algo2)
