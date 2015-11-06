@@ -45,7 +45,7 @@ you don’t understand JavaScript.
  
 ### :clapper:Video
 * mpjme [Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
-* [ES6 TV ;) from Reactima](https://www.youtube.com/watch?v=I7IdS-PbEgI&index=6&list=PLtFUHIH79KLzJC8yJN7gOE4d7odG1yTMw)
+* [ES6 TV ;)) from Reactima](https://www.youtube.com/watch?v=I7IdS-PbEgI&index=6&list=PLtFUHIH79KLzJC8yJN7gOE4d7odG1yTMw)
 
 ### Communities
 * [RadioJS by MoscowJS](http://radiojs.ru/)
