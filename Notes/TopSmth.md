@@ -32,6 +32,9 @@
 * [Toptal interview process explained](http://julienrenaux.fr/2015/06/18/toptal-interview-process-explained/)
 * [JavaScript background to have before any job interview with top companies](http://julienrenaux.fr/2015/05/25/javascript-background-to-have-before-any-job-interview-with-top-companies/)
 
+### Competitors
+* [Triplebyte Ten things we believe about hiring](https://triplebyte.com/manifesto)
+
 ### Coursera
 * [Coursera: Algorithms, Part I](https://www.coursera.org/course/algs4partI)
 * [Coursera: Algorithms, Part II](https://www.coursera.org/course/algs4partII)

@@ -18,17 +18,16 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 ### TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [Webpack] (https://webpack.github.io/)
+* [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
+- [ ] Investigate Babel 6 vs Webpack 2
 - [ ] Learn how to reduce css
 - [ ] Learn how to split js code for faster downloads 
 * [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces)
-* [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
 * [CSS Modules](https://github.com/css-modules/css-modules) 
-  * [CSS Modules Welcome to the Future](http://glenmaddern.com/articles/css-modules)
+  * BEST [CSS Modules Welcome to the Future](http://glenmaddern.com/articles/css-modules)
   * [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
-  * [SASS](https://github.com/sass/sass)
-  * [PostCSS](https://github.com/postcss/postcss)
-- [ ] Learn how to reduce css
-- [ ] CSS Modules vs Compare PostCSS vs SASS
+    * [SASS](https://github.com/sass/sass)
+    * [PostCSS](https://github.com/postcss/postcss)
 * [JSCS — JavaScript Code Style](http://jscs.info/) from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
 * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
