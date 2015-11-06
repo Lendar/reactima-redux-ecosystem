@@ -25,6 +25,7 @@ Back [REDUX] (README.md) or ... [DEVOPS TRASH] (DEVOPS.md)
 * :tea: [React: A (very brief) talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c#.5vidlw2s8)
 * Eric Elliott [Stop Using Constructor Functions In JavaScript 2012](http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript/)
 * Eric Elliott [JavaScript Constructor Functions Vs Factory Functions 2013](http://ericleads.com/2013/01/javascript-constructor-functions-vs-factory-functions/)
+* :muscle: Eric Elliott [The Single Biggest Mistake Programmers Make Every Day](https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308)
 * :muscle: Eric Elliott [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.23df3eq1y)
 ```
 If you don’t understand prototypes,
