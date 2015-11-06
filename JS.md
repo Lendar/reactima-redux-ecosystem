@@ -25,16 +25,23 @@ Back [REDUX] (README.md) or ... [DEVOPS TRASH] (DEVOPS.md)
 * :tea: [React: A (very brief) talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c#.5vidlw2s8)
 * Eric Elliott [Stop Using Constructor Functions In JavaScript 2012](http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript/)
 * Eric Elliott [JavaScript Constructor Functions Vs Factory Functions 2013](http://ericleads.com/2013/01/javascript-constructor-functions-vs-factory-functions/)
+```
+A constructor is just a factory function with this glued to the new object for your “convenience”. In other words, it’s a less flexible subset of a factory function.
+```
 * :muscle: Eric Elliott [The Single Biggest Mistake Programmers Make Every Day](https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308)
 ```
 Pure function > Function > Factory > Class
-```
+A constructor is just a factory function with this glued to the new object for your “convenience”. In other words, it’s a less flexible subset of a factory function.
+``` 
 * :muscle: Eric Elliott [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.23df3eq1y)
 ```
 If you don’t understand prototypes,
 you don’t understand JavaScript.
 ```
 * Dan Abramov [How to Use Classes and Sleep at Night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4#.b72gk999t)
+ 
+### ES7 aka Crazy and beyond
+* [Stamp Specification: Composables](https://github.com/stampit-org/stamp-specification#stamp-specification-composables)
  
 ### :clapper:Video
 * mpjme [Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
