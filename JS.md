@@ -17,7 +17,7 @@ Back [REDUX] (README.md) or ... [DEVOPS TRASH] (DEVOPS.md)
 * :muscle: :tea: Eric Elliott [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
 * Nicholas C. Zakas [Understanding ECMAScript 6](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
   Nicholas C. Zakas [@slicknet](https://twitter.com/slicknet)
-* Dr. Axel Rauschmayer[@rauschma](https://twitter.com/rauschma) [Exploring ES6](http://exploringjs.com/es6/)
+* :muscle: Dr. Axel Rauschmayer[@rauschma](https://twitter.com/rauschma) [Exploring ES6](http://exploringjs.com/es6/)
 
 ### Articles
 * [lukehoban/es6features](https://github.com/lukehoban/es6features)

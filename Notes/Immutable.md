@@ -16,3 +16,5 @@ Refer to https://github.com/gajus/redux-immutable-examples for an example of a R
 * [redux-immutablejs](https://github.com/indexiatech/redux-immutablejs) This library doesn't dictate any specific reducer structure, While `redux-immutable` focusing on [CRC](https://github.com/gajus/canonical-reducer-composition), while this library provides some [conversion middlewares](https://github.com/gajus/redux-immutable/issues/3) from FSA to CCA and vise versa, if you feel like going with _Redux's vanilla_ is the right approach, then consider using our library.
 
 - [ ] Compare with https://github.com/quangbuule/redux-example
+
+
