@@ -18,7 +18,8 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
   * [Introduction to Generators & Koa.js: Part 1](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615)
   * [Introduction to Generators & Koa.js: Part 2](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756)
 * [Co](https://github.com/tj/co) - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way.
-  `co@4.0.0` has been released, which now relies on promises.
+
+`co@4.0.0` has been released, which now relies on promises.
   It is a stepping stone towards [ES7 async/await](https://github.com/lukehoban/ecmascript-asyncawait).
   The primary API change is how `co()` is invoked.
   Before, `co` returned a "thunk", which you then called with a callback and optional arguments.
