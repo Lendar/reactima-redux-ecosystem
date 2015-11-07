@@ -18,7 +18,11 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [redux-router - Redux bindings for React Router – keep your router state inside your Redux store](https://github.com/rackt/redux-router)
 * [Immutable.js](https://facebook.github.io/immutable-js/) READ MORE [Notes/Immutable.md](Notes/Immutable.md)
 * [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
-* [lodash] (https://lodash.com/docs#map) [:octocat:] (https://github.com/lodash/lodash/blob/master/lodash.js#L31)
+* (fun) [ramda](https://github.com/ramda/ramda)
+  * (fun) more functional?? [The Philosophy of Ramda](https://github.com/ramda/ramda)
+  * not as (fun) as ramda [lodash] (https://lodash.com/docs#map) [:octocat:] (https://github.com/lodash/lodash/blob/master/lodash.js#L31)
+  * (fun) more functional?? [lazy.js](http://danieltao.com/lazy.js/)
+  * [Put callback first for elegance](http://glebbahmutov.com/blog/put-callback-first-for-elegance/)
 * [Koa Examples](https://github.com/koajs/examples)
   * [Introduction to Generators & Koa.js: Part 1](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615)
   * [Introduction to Generators & Koa.js: Part 2](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756)
