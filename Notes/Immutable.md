@@ -1,5 +1,6 @@
 ### Immutable.js notes
 * - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) data structures and library is the best?
+
 > :octocat:: ramda seems iterating really  well over arrays, but not objects and other structures like Immutable.js 
 
   * :tea: [Put callback first for elegance](http://glebbahmutov.com/blog/put-callback-first-for-elegance/)
