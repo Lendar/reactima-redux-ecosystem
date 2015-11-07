@@ -1,4 +1,4 @@
-[:game_die:Play with JS/ES6/ES2015!] (JS.md) or [Dev/Sys/OOOPS ](DEVOPS.md) or [TopSmth 3% screening](Notes/TopSmth.md) or [Immutable notes](Notes/Immutable.md)  
+:game_die:Play with [JS/ES6/ES2015!] (JS.md) or [Dev/Sys/OOOPS ](DEVOPS.md) or [TopSmth 3% screening](Notes/TopSmth.md) or [Immutable.js](Notes/Immutable.md) notes
 # Hand-picked Redux Ecosystem
 
 Redux - Predictable state container for JavaScript apps which makes you forget about all other frameworks, tools, ecosystems or even coming [WebAssembly] ( https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.1x0ooowqn). Makes you believe that you are in control on apps state and data flow.
