@@ -31,7 +31,7 @@ Refer to https://github.com/gajus/redux-immutable-examples for an example of a R
 - [ ] Compare with https://github.com/quangbuule/redux-example
 
 
-### WATCH & STUDY Functional Reactive Alternative
+### Functional Reactive Alternatives
 - [ ] There's always smth else ...
 * (fun) [lazy.js](http://danieltao.com/lazy.js/)
 * (fun) [bacon.js](https://github.com/baconjs/bacon.js)
