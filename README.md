@@ -19,6 +19,10 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 
   * :tea: [Put callback first for elegance](http://glebbahmutov.com/blog/put-callback-first-for-elegance/)
   * (fun) [The Philosophy of Ramda](https://github.com/ramda/ramda)
+  
+> https://github.com/ramda/ramda/issues/695 So, the issue I'm facing is that I want to use ramda everywhere in my project, but I am frequently dealing with other kinds of data structures (for example, facebook's immutable data structures). Currently I'm just wrapping up immutable's methods in curryN's to get similar behavior, but it really would be nice to translate the increasing amount of work in this library in other places (for example, immutable does have map, but it doesn't have some of the other funcs, and these just need to be re-written (often times copy-pasting with minimal changes)). I was wondering whether consideration had been given to generalizing these functions, perhaps against JS's iterator spec (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/The_Iterator_protocol)?  
+
+  
 * [Koa Examples](https://github.com/koajs/examples)
   * [Introduction to Generators & Koa.js: Part 1](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615)
   * [Introduction to Generators & Koa.js: Part 2](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756)
