@@ -1,4 +1,14 @@
 ### Immutable.js notes
+* - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) data structures and library is the best?
+> :octocat:: ramda seems iterating really  well over arrays, but not objects and other structures like Immutable.js 
+
+  * :tea: [Put callback first for elegance](http://glebbahmutov.com/blog/put-callback-first-for-elegance/)
+  * (fun) [The Philosophy of Ramda](https://github.com/ramda/ramda)
+  
+> https://github.com/ramda/ramda/issues/695 So, the issue I'm facing is that I want to use ramda everywhere in my project, but I am frequently dealing with other kinds of data structures (for example, facebook's immutable data structures). Currently I'm just wrapping up immutable's methods in curryN's to get similar behavior, but it really would be nice to translate the increasing amount of work in this library in other places (for example, immutable does have map, but it doesn't have some of the other funcs, and these just need to be re-written (often times copy-pasting with minimal changes)). I was wondering whether consideration had been given to generalizing these functions, perhaps against JS's iterator spec (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/The_Iterator_protocol)?  
+
+
+### Immutable.js links
 * [Immutable.js](https://facebook.github.io/immutable-js/) 
 * [Directed Acyclic Graphs wiki](https://en.wikipedia.org/wiki/Directed_acyclic_graph) 
 * [Trie wiki](https://en.wikipedia.org/wiki/Trie) 
