@@ -7,11 +7,6 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Redux Github](https://github.com/rackt/redux)
 * [Documentation of Redux](http://rackt.github.io/redux)
 
-### Redux Functional Reactive Alternative
-* [Circle.js](http://cycle.js.org/) [@andrestaltz](https://twitter.com/andrestaltz)
-  * [UNIDIRECTIONAL USER INTERFACE ARCHITECTURES](http://staltz.com/unidirectional-user-interface-architectures.html)
-  - [ ] There's always smth else ... 
-
 ### PACKAGE.JSON
 * [React.js](http://facebook.github.io/react)
 * [react-redux - React bindings for Redux](https://github.com/rackt/react-redux)
@@ -30,6 +25,14 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Co](https://github.com/tj/co) - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way. 
 
 > :octocat:: Better to understand before moving ahead with await/async approach
+
+### WATCH & STUDY Functional Reactive Alternative
+- [ ] There's always smth else ...
+* (fun) [lazy.js](http://danieltao.com/lazy.js/)
+* (fun) [bacon.js](https://github.com/baconjs/bacon.js)
+* [Circle.js](http://cycle.js.org/) [@andrestaltz](https://twitter.com/andrestaltz)
+  * [UNIDIRECTIONAL USER INTERFACE ARCHITECTURES](http://staltz.com/unidirectional-user-interface-architectures.html)
+   
 
 ### TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
