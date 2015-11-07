@@ -20,6 +20,7 @@ Back [REDUX] (README.md) or ... [DEVOPS TRASH] (DEVOPS.md)
 * :muscle: Dr. Axel Rauschmayer[@rauschma](https://twitter.com/rauschma) [Exploring ES6](http://exploringjs.com/es6/)
 
 ### Articles
+* [fantasy-land - specification for interoperability of common algebraic structures in JavaScript](https://github.com/fantasyland/fantasy-land#monad)
 * [lukehoban/es6features](https://github.com/lukehoban/es6features)
 * :tea: [Understanding the functional revolution in front-end applications](http://blog.reactandbethankful.com/posts/2015/09/15/understanding-the-functional-revolution/)
 * :tea: [React: A (very brief) talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c#.5vidlw2s8)

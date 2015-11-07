@@ -18,4 +18,4 @@
 * [OAuth Has Ruined Everything](http://developer.telerik.com/featured/oauth-has-ruined-everything/)
 * [Installing fail2ban on CentOS 7](http://unix.stackexchange.com/questions/171567/installing-fail2ban-on-centos-7) 
 * [Top Overlooked Security Threats to Node Apps: ](https://speakerdeck.com/player/c5d895008c77013162b85e7a2e8ee0d7?#)
-* [OAuth 2 VS JSON Web Tokens: How to secure an API](http://www.seedbox.com/en/blog/2015/06/05/oauth-2-vs-json-web-tokens-comment-securiser-un-api/)
+* [OAuth 2 VS JSON Web Tokens: How to secure an API](http://kidtronnix.com/2015/03/05/Oauth-2-VS-Json-Web-Tokens/)
