@@ -15,21 +15,14 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Immutable.js](https://facebook.github.io/immutable-js/) 
     * - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) data structures and library is the best?
     * READ MORE [Notes/Immutable.md](Notes/Immutable.md)
-
 * [Koa Examples](https://github.com/koajs/examples)
   * [Introduction to Generators & Koa.js: Part 1](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615)
   * [Introduction to Generators & Koa.js: Part 2](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756)
-* [Co](https://github.com/tj/co) - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way. 
   
-> :octocat:: Better to understand before moving ahead with await/async approach
+> :octocat:: Better to understand before moving ahead with ES7 await/async approach
 
-### WATCH & STUDY Functional Reactive Alternative
-- [ ] There's always smth else ...
-* (fun) [lazy.js](http://danieltao.com/lazy.js/)
-* (fun) [bacon.js](https://github.com/baconjs/bacon.js)
-* [Circle.js](http://cycle.js.org/) [@andrestaltz](https://twitter.com/andrestaltz)
-  * [UNIDIRECTIONAL USER INTERFACE ARCHITECTURES](http://staltz.com/unidirectional-user-interface-architectures.html)
-   
+* [Co](https://github.com/tj/co) - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way. 
+
 
 ### TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
