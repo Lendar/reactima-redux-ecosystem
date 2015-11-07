@@ -19,13 +19,16 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
 * [Immutable.js](https://facebook.github.io/immutable-js/) READ MORE [Notes/Immutable.md](Notes/Immutable.md)
 * - [ ] Which (fun) data structures and library is the best? [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) 
+
 > :octocat:: ramda seems iterating really  well over arrays, but not objects and other structures like Immutable.js 
+
   * :tea: [Put callback first for elegance](http://glebbahmutov.com/blog/put-callback-first-for-elegance/)
   * (fun) [The Philosophy of Ramda](https://github.com/ramda/ramda)
 * [Koa Examples](https://github.com/koajs/examples)
   * [Introduction to Generators & Koa.js: Part 1](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615)
   * [Introduction to Generators & Koa.js: Part 2](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756)
 * [Co](https://github.com/tj/co) - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way. 
+
 > :octocat:: Better to understand before moving ahead with await/async approach
 
 ### TOOLS & LIBRARIES
