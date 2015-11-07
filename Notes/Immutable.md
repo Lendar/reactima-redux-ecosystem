@@ -1,4 +1,4 @@
-### Immutable.js notes
+### Immutable.js related notes
 This is an attempt to find some core answers on Immutable.js related hype.
 * - [ ]  What makes [Immutable.js](https://facebook.github.io/immutable-js/) is so special?
 * - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) iterating library is the best for immutable and functional approach?
