@@ -1,4 +1,4 @@
-[:game_die:Play with JS/ES6/ES2015!] (JS.md) or [Dev/Sys/OOOPS ](DEVOPS.md) or [TopSmth 3% screening](Notes/TopSmth.md) 
+[:game_die:Play with JS/ES6/ES2015!] (JS.md) or [Dev/Sys/OOOPS ](DEVOPS.md) or [TopSmth 3% screening](Notes/TopSmth.md) or [Immutable notes](Notes/Immutable.md)  
 # Hand-picked Redux Ecosystem
 
 Redux - Predictable state container for JavaScript apps which makes you forget about all other frameworks, tools, ecosystems or even coming [WebAssembly] ( https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.1x0ooowqn). Makes you believe that you are in control on apps state and data flow.
@@ -13,8 +13,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [redux-router - Redux bindings for React Router – keep your router state inside your Redux store](https://github.com/rackt/redux-router)
 * [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
 * [Immutable.js](https://facebook.github.io/immutable-js/) 
-    * - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) data structures and library is the best?
-    * READ MORE [Notes/Immutable.md](Notes/Immutable.md)
+    * - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) is the best?
 * [Koa Examples](https://github.com/koajs/examples)
   * [Introduction to Generators & Koa.js: Part 1](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615)
   * [Introduction to Generators & Koa.js: Part 2](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756)
