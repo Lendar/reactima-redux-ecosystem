@@ -18,7 +18,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [redux-router - Redux bindings for React Router – keep your router state inside your Redux store](https://github.com/rackt/redux-router)
 * [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
 * [Immutable.js](https://facebook.github.io/immutable-js/) READ MORE [Notes/Immutable.md](Notes/Immutable.md)
-* - [ ] Which (fun) data structures and libraries is best? [ramda](https://github.com/ramda/ramda) vs [lodash] (https://lodash.com/docs#map) [:octocat:] (https://github.com/lodash/lodash/blob/master/lodash.js#L31) Note: ramda seems iterating really good over array, but not objects and other structures like Immutable.js 
+* - [ ] Which (fun) data structures and library is the best? [ramda](https://github.com/ramda/ramda) vs [lodash] (https://lodash.com/docs#map)  (https://github.com/lodash/lodash/blob/master/lodash.js#L31) [:octocat:] says: ramda seems iterating really good over array, but not objects and other structures like Immutable.js 
   * :tea: [Put callback first for elegance](http://glebbahmutov.com/blog/put-callback-first-for-elegance/)
   * (fun) more functional?? [The Philosophy of Ramda](https://github.com/ramda/ramda)
   * (fun) more functional?? [lazy.js](http://danieltao.com/lazy.js/)
