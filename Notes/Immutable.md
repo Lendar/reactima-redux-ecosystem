@@ -1,5 +1,5 @@
 ### Immutable.js related notes
-This is an attempt to find some core answers on Immutable.js related hype. Most performance issues can be solved not by algorithm but changing data structure. Functional approach tells a lot about composition. There are many examples with simple data objects but not about big deeply nested graph like dataset. Memoization, immutability, streams, actors, etc concepts has to be sorted out ...
+This is an attempt to find some core answers on Immutable.js related hype. Most performance issues can be solved not by algorithm but changing data structure. Functional approach tells a lot about functional composition and there are many examples with simple data objects which support approach over imperative programming. However what about big deeply nested graph like dataset? Memoization, immutability, streams, actors, etc concepts? All has to be sorted out somehow ...
 * - [ ]  What makes [Immutable.js](https://facebook.github.io/immutable-js/) is so special?
 * - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) iterating library is the best for immutable and functional approach?
 
