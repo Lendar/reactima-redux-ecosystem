@@ -1,5 +1,7 @@
 ### Immutable.js notes
-* - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) data structures and library is the best?
+This is an attempt to find some core answers on Immutable.js related hype.
+* - [ ]  What makes [Immutable.js](https://facebook.github.io/immutable-js/) is so special?
+* - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) iterating library is the best for immutable and functional approach?
 
 > :octocat:: ramda seems iterating really  well over arrays, but not objects and other structures like Immutable.js 
 
@@ -10,7 +12,7 @@
 
 
 ### Immutable.js links
-* [Immutable.js](https://facebook.github.io/immutable-js/) 
+
 * [Directed Acyclic Graphs wiki](https://en.wikipedia.org/wiki/Directed_acyclic_graph) 
 * [Trie wiki](https://en.wikipedia.org/wiki/Trie) 
 * ["Immutable данные в JS приложениях", Дмитрий Кунин, MoscowJS 20](http://www.slideshare.net/moscowjs/immutable-js-moscowjs-20) 
