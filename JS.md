@@ -1,4 +1,4 @@
-Back [REDUX] (README.md) or ... [DEVOPS TRASH] (DEVOPS.md)
+Back [REDUX ecosystem notes] (README.md) 
 
 ## JS Interview prep links
 * Learn how to write minimal code and reproduce issues on github ... ;) [source](https://github.com/babel/babel/issues/2455#issuecomment-144123318)
