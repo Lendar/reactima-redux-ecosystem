@@ -7,6 +7,11 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Redux Github](https://github.com/rackt/redux)
 * [Documentation of Redux](http://rackt.github.io/redux)
 
+### Redux Functional Reactive Alternative
+* [Circle.js](http://cycle.js.org/) [@andrestaltz](https://twitter.com/andrestaltz)
+  * [UNIDIRECTIONAL USER INTERFACE ARCHITECTURES](http://staltz.com/unidirectional-user-interface-architectures.html)
+  - [ ] There's always smth else ... 
+
 ### PACKAGE.JSON
 * [React.js](http://facebook.github.io/react)
 * [react-redux - React bindings for Redux](https://github.com/rackt/react-redux)
