@@ -29,3 +29,13 @@ Refer to https://github.com/gajus/redux-immutable-examples for an example of a R
 - [ ] Compare with https://github.com/quangbuule/redux-example
 
 
+### WATCH & STUDY Functional Reactive Alternative
+- [ ] There's always smth else ...
+* (fun) [lazy.js](http://danieltao.com/lazy.js/)
+* (fun) [bacon.js](https://github.com/baconjs/bacon.js)
+* [Circle.js](http://cycle.js.org/) [@andrestaltz](https://twitter.com/andrestaltz)
+  * [UNIDIRECTIONAL USER INTERFACE ARCHITECTURES](http://staltz.com/unidirectional-user-interface-architectures.html)
+   
+
+
+
