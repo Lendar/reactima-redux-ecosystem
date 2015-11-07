@@ -19,7 +19,9 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
 * [Immutable.js](https://facebook.github.io/immutable-js/) READ MORE [Notes/Immutable.md](Notes/Immutable.md)
 * - [ ] Which (fun) data structures and library is the best? [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) 
-  > [:octocat:] says: ramda seems iterating really good over array, but not objects and other structures like Immutable.js 
+
+> :octocat: says: ramda seems iterating really good over array, but not objects and other structures like Immutable.js 
+
   * :tea: [Put callback first for elegance](http://glebbahmutov.com/blog/put-callback-first-for-elegance/)
   * (fun) more functional?? [The Philosophy of Ramda](https://github.com/ramda/ramda)
   * (fun) more functional?? [lazy.js](http://danieltao.com/lazy.js/)
