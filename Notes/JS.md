@@ -13,7 +13,7 @@ Just random copy&pastes from the web ...
 
 * :muscle: :tea: [@_ericelliott](https://twitter.com/_ericelliott) Eric Elliott [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html) uses  several [QUnit](https://qunitjs.com/) functions: module(), test(), ok(), equal()
 
-* 3 If your function operates on outside variables, return a copy instead of the original.
+* 3 **If your function operates on outside variables, return a copy instead of the original.** ???
 
 * 4 **function expression**
 ```javascript
@@ -25,7 +25,7 @@ bar(); //=> [Function] (Note: It's anonymous.)
 ```
 > The bar() example assigns a function body to the variable, bar. This implementation is called a function expression.
 
-* 5 **object literal**
+* 5 **object literal** definition
 
 ```javascript
 var myObject = {
