@@ -10,8 +10,8 @@ Just random copy&pastes from the web ...
 > The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for..of construct. Some built-in types are built-in iterables with a default iteration behavior, such as Array or Map, while other types (such as Object) are not.
 
 * http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#side-effects
-> If your function operates on outside variables, return a copy instead of the original.
 
+> If your function operates on outside variables, return a copy instead of the original.
 
 ```
 var bar = function () {
@@ -21,3 +21,13 @@ var bar = function () {
 bar(); //=> [Function] (Note: It's anonymous.)
 ```
 > The bar() example assigns a function body to the variable, bar. This implementation is called a function expression.
+
+
+```
+var myObject = {
+    sProp: 'some string value',
+    numProp: 2,
+    bProp: false
+};
+```
+> An object literal is a comma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, enclosing it in a tidy package. This minimizes the use of global variables which can cause problems when combining code.
