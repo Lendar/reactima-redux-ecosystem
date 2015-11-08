@@ -127,13 +127,13 @@ test('Invoking a method.', function () {
 
   * To clarify, the [.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) method shared by all functions allows you to call any method or function on any object. In other words, it sets this inside the method to refer to the object of your choosing. The signature is:
   
-```
+```javascript
 someMethod.call(context, argument1, argument2, ...);
 ```
 
 Here, context is the object you want this to refer to. If you need to pass an array of arguments, use .apply() instead:
 
-```
+```javascript
 someMethod.apply(context, someArray);
 ```
 
@@ -142,7 +142,7 @@ someMethod.apply(context, someArray);
 
 .call() and .apply() drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.The .bind() method is used to permanently set the value of this inside the target function to the passed in context object. 
 
-```
+```javascript
 var lightbulb = {
     toggle: function toggle() {
       this.isOn = !this.isOn;
@@ -159,7 +159,7 @@ lightswitch.addEventListener('click',
 ```  
 
 * 11 **()()**
-```
+```javascript
 function hi(){
     return function(){return "hello there";};
 }
@@ -182,7 +182,7 @@ var msg = hi()();         // so msg now has a value of "hello there"
     * The declaration pass sets up the runtime environment, where it scans for all variable and function declarations and creates the identifiers. The second pass is the execution pass. 
     * After the first pass, all declared functions are available, but variables are still undefined. 
     
-```
+```javascript
 var x = 1;
 
 (function () {
@@ -193,7 +193,7 @@ var x = 1;
 
 If you guessed that the value of x at the console.log() statement is 1, you're not alone. This is a common source of bugs in JavaScript. In the first pass, the function declarations occur, and x is undefined in both the inner and outer scope. When it gets to the console.log() statement in the execution pass, the inner scoped x has been declared, but is still undefined, because it hasn't hit the initialization in the next statement yet. In effect, this is how JavaScript interprets the code:
 
-```
+```javascript
 var x = 1;
 
 (function () {
@@ -205,7 +205,7 @@ var x = 1;
 
 Functions behave a little differently. Both the identifier number and the function body are hoisted, whereas the value 2 was not hoisted along with x:
 
-```
+```javascript
 test('Function declaration hoisting', function () {
   function number() {
     return 1;
@@ -225,7 +225,7 @@ test('Function declaration hoisting', function () {
 
 This code is equivalent to:
 
-```
+```javascript
 test('Function declaration hoisted.', function () {
   function number() {
     return 1;
@@ -245,7 +245,7 @@ test('Function declaration hoisted.', function () {
 
 Function expressions do not share this behavior, because they do not declare a function. Instead, they declare a variable and are subject to the same variable-hoisting behavior:
 
-```
+```javascript
 test('Function expression hoisting', function () {
   function number() {
     return 1;
@@ -271,7 +271,7 @@ test('Function expression hoisting', function () {
 
 In the function expression example, the number variable is hoisted, but the function body is not hoisted, because it is a named function expression, not a function declaration. The value of number is not defined until runtime. This code is equivalent to:
 
-```
+```javascript
 test('Function Expression Hoisted', function () {
   function number() {
     return 1;
@@ -304,7 +304,7 @@ In a nutshell, a closure stores function state, even after the function has retu
 
 Because the closure variables in the outer function are only in scope within the containing function, you can't get at the data except through its privileged methods. In other languages, a privileged method is an exposed method that has access to private data. !!! In JavaScript, **any exposed method defined within the closure scope is privileged**. For example:
 
-```
+```javascript
 var o = function o () {
   var data = 1,
     get;
@@ -343,7 +343,7 @@ In addition to the data privacy benefits, closures are an essential ingredient i
 
 Closures are commonly used to feed data to event handlers or callbacks, which might get triggered long after the containing function has finished. For example:
 
-```
+```javascript
 (function () {
   var arr = [],
     count = 1,
@@ -410,18 +410,21 @@ Garbage was here ... See ES6 destructing, spread, etc
   * Polymorphic functions behave differently based on the parameters you pass into them. In JavaScript, those parameters are stored in the array-like arguments object, but it’s missing useful array methods.
   * Array.prototype.[slice()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) is an easy way to shallow copy some or all of an array (or an array-like object). You can borrow the .slice() method from the Array prototype using a technique called **method delegation**. You delegate the .slice() call to the Array.prototype object.
   
-```
+```javascript
 var args = Array.prototype.slice.call(arguments, 0);
 ```
 
 Slice starts at index 0 and returns everything from that index on as a new array. That syntax is a little long winded, though. It's easier and faster to write:
-```
+
+```javascript
 var args = [].slice.call(arguments, 0);
 ```
+
 The square bracket notation creates a new empty array to delegate the slice call to. That sounds like it might be slow, but creating an empty array is actually a very fast operation. I ran an A/B performance test with millions of operations and didn't see a blip in the memory use or any statistically significant difference in operation speed.
 
 You could use this technique to create a function that sorts parameters:
-```
+
+```javascript
 function sort() {
   var args = [].slice.call(arguments, 0);
   return args.sort();
@@ -436,11 +439,14 @@ test('Sort', function () {
 Because arguments is not a real array, it doesn't have the .sort() method. However, since a real array is returned from the .slice() call, you have access to all of the array methods on the args array. The .sort() method returns a sorted version of the array.
 
 Polymorphic functions frequently need to examine the first argument in order to decide how to respond. Now that args is a real array, you can use the .shift() method to get the first argument:
-```
+
+```javascript
 var first = args.shift();
 ```
+
 Now you can branch if a string is passed as the first parameter:
-```
+
+```javascript
 function morph(options) {
   var args = [].slice.call(arguments, 0),
     animals = 'turtles'; // Set a default
@@ -465,12 +471,13 @@ test('Polymorphic branching.', function () {
     'The pet store has 2 turtles.');
 });
 ```
+
 * 16 **Method dispatch**
   * Method dispatch is the mechanism that determines what to do when an object receives a message. JavaScript does this by checking to see if the method exists on the object. If it doesn't, the JavaScript engine checks the prototype object. If the method isn't there, it checks the prototype's prototype, and so on. When it finds a matching method, it calls the method and passes the parameters in. This is also known as behavior delegation in delegation-based prototypal languages like JavaScript.
 
   * Dynamic dispatch enables polymorphism by selecting the appropriate method to run based on the parameters that get passed into the method at runtime. Some languages have special syntax to support dynamic dispatch. In JavaScript, you can check the parameters from within the called method and call another method in response:
 
-```
+```javascript
 var methods = {
     init: function (args) {
       return 'initializing...';
@@ -511,7 +518,7 @@ test('Dynamic dispatch', function () {
 ```
 This manual style of dynamic dispatch is a common technique in jQuery plug-ins in order to enable developers to add many methods to a plug-in without adding them all to the jQuery prototype (jQuery.fn). Using this technique, you can claim a single name on the jQuery prototype and add as many methods as you like to it. Users then select the method they want to invoke using:
 
-```
+```javascript
 $(selection).yourPlugin('methodName', params);
 ```
 
@@ -533,7 +540,7 @@ Many of the functions you might apply to an array would also work for an object 
 
 The easiest way to select a random element is to use a numbered index, so if the collection is an object, it could be converted to an array using ad-hoc polymorphism. The following function will do that:
 
-```
+```javascript
 var toArray = function toArray(obj) {
   var arr = [],
     prop;
@@ -549,7 +556,7 @@ var toArray = function toArray(obj) {
 
 The randomItem() function is easy now. First, you test the type of collection that gets passed in and convert it to an array if it's not one already, and then return a random item from the array using the built-in Math.random() method:
 
-```
+```javascript
 var randomItem = function randomItem(collection) {
   var arr = ({}.toString.call(collection) !== 
     '[object Array]')
@@ -582,7 +589,7 @@ Collection polymorphism is a very useful tool for code reuse and API consistency
 
 JavaScript 1.6 introduced a number of new built-in array and string generics. With 1.6 compatible JavaScript engines, you can use array methods such as .every() on strings:
 
-```
+```javascript
 var validString = 'abc',
   invalidString = 'abcd',
 
@@ -610,7 +617,7 @@ test('Array String generics', function () {
 
 You can also use string methods on numbers:
 
-```
+```javascript
 var num = 303;
 
 test('String number generics', function () {
