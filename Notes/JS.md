@@ -22,12 +22,40 @@ Just random copy&pastes from the web ...
   //=> 4 
    
 (() => {})()
-  //=> undefined - the absence of a value is written **undefined**, and it means there is no value. It will crop up again. undefined is its own type of value, and it acts like a value type
+  //=> undefined - the absence of a value is written **undefined**, 
+  // and it means there is no value.
+  // undefined is its own type of value, and it acts like a value type
   
 (() => return 0)()
   //=> ERROR  
+
+// That’s a function, that returns a function, that returns true:
+(() => () => true)()()
+  //=> true  
    
+((room, board) => room + board)(800, 150)
+  //=> 950
+
+(x) => (y) => x     
 ```
+#### What is going to happen?
+
+```javascript
+((x) => x)(2)
+  //=> 2 
+```
+
+  * JavaScript parses this whole thing as an expression made up of several sub-expressions.
+  * It then starts evaluating the expression, including evaluating sub-expressions
+  * One sub-expression, (x) => x evaluates to a function.
+  * Another, 2, evaluates to the number 2.
+  * JavaScript now evaluates applying the function to the argument 2. Here’s where it gets interesting…
+  * An environment is created.
+  * The value ‘2’ is bound to the name ‘x’ in the environment.
+  * The expression ‘x’ (the right side of the function) is evaluated within the environment we just created.
+  * The value of a variable when evaluated in an environment is the value bound to the variable’s name in that environment, which is ‘2’
+  * And that’s our result.
+
 
 * 1 **arrays and objects are passed by reference** https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
 
