@@ -54,28 +54,6 @@ test('Named function expressions.', function () {
      
 > A lambda is a function that is used as data. As such, it can be used the same way any other expression can: as a parameter for another function, the return value of a function, or anywhere you might use a literal value.
 
-```
-var sum = function sum() {
-  var result = 0;
-
-  [5, 5, 5].forEach(function addTo(number) { result += number; });
-
-  return result;
-};
-
-test('Lambdas.', function () {
-  equal(sum(), 15,
-    'result should be 15.');
-});
-```
-
-The .addTo() function passed into .forEach() is a lambda. 
-
-```
-.addTo() has access to the result variable from the containing function scope's closure 
-.forEach() method is one of several **functional enumerators** added to ES5
-```
-
 * #8 Closure vs Lambda vs First-class vs Higher Order functions
 
   * Lambdas are frequently confused with anonymous functions, closures, first-class functions, and higher order functions. The concepts are all similar, but they mean different things.
