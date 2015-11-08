@@ -17,7 +17,7 @@ Back [REDUX ecosystem notes] (README.md)
 * :muscle: :tea: [@_ericelliott](https://twitter.com/_ericelliott) Eric Elliott [Programming JavaScript Applications 2014](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
 * [@slicknet](https://twitter.com/slicknet) Nicholas C. Zakas [Understanding ECMAScript 6 2015](https://leanpub.com/understandinges6) ... 60% complete
 * :muscle: [@rauschma](https://twitter.com/rauschma) Dr. Axel Rauschmayer [Exploring ES6 2015](http://exploringjs.com/es6/)
-* :muscle: [@raganwald](https://twitter.com/raganwald) Reg Braithwaite [JavaScript Allongé, the "Six" Edition : Programming from Functions to Classes in ECMAScript 2015](https://leanpub.com/javascriptallongesix/read)
+* :muscle: [@raganwald](https://twitter.com/raganwald) Reg Braithwaite [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix/read) aka  Programming from Functions to Classes in ECMAScript 2015
 
 ### Articles
 * [fantasy-land - specification for interoperability of common algebraic structures in JavaScript](https://github.com/fantasyland/fantasy-land#monad)
@@ -61,7 +61,3 @@ you don’t understand JavaScript.
 * [MoscowJS](http://moscowjs.ru/)
 * [MoscowJS Gitter](https://gitter.im/MoscowJS/chat)
 * [BeerJS Moscow brunch](https://gitter.im/beerjs/moscow)
-
-
-### MindMUP
-* [MindMUP] (https://www.mindmup.com/#m:new-a-1437127805759)
