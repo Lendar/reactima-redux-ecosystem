@@ -14,10 +14,9 @@ Back [REDUX ecosystem notes] (README.md)
 * :muscle: [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
 
 ### Books JS/ES6/ES2015
-* :muscle: :tea: Eric Elliott [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
-* Nicholas C. Zakas [Understanding ECMAScript 6](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
-  Nicholas C. Zakas [@slicknet](https://twitter.com/slicknet)
-* :muscle: Dr. Axel Rauschmayer[@rauschma](https://twitter.com/rauschma) [Exploring ES6](http://exploringjs.com/es6/)
+* :muscle: :tea: [@_ericelliott](https://twitter.com/_ericelliott) Eric Elliott [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
+* [@slicknet](https://twitter.com/slicknet) Nicholas C. Zakas [Understanding ECMAScript 6](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
+* :muscle: [@rauschma](https://twitter.com/rauschma) Dr. Axel Rauschmayer [Exploring ES6](http://exploringjs.com/es6/)
 
 ### Articles
 * [fantasy-land - specification for interoperability of common algebraic structures in JavaScript](https://github.com/fantasyland/fantasy-land#monad)
@@ -26,7 +25,7 @@ Back [REDUX ecosystem notes] (README.md)
 * :tea: [React: A (very brief) talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c#.5vidlw2s8)
 * Dan Abramov [How to Use Classes and Sleep at Night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4#.b72gk999t)
 
-### Eric Elliott
+### Eric Elliott [@_ericelliott](https://twitter.com/_ericelliott)
 * [Stop Using Constructor Functions In JavaScript 2012](http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript/)
 * [JavaScript Constructor Functions Vs Factory Functions 2013](http://ericleads.com/2013/01/javascript-constructor-functions-vs-factory-functions/)
 ```
