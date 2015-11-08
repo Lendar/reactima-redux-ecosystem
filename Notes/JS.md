@@ -1,5 +1,33 @@
 ## Best JS quotes and code extractions
 Just random copy&pastes from the web ... 
+* 0  JavaScript Allongé, the "Six" Edition https://leanpub.com/javascriptallongesix/read#leanpub-auto-forewords-to-the-first-edition
+```javascript
+(() => 0)
+  //=> [Function]
+  
+(() => 0) === (() => 0)
+  //=> false  
+  
+(() => 0)()
+  //=> 0
+
+// comma operator
+(1, 2)
+  //=> 2
+
+(1 + 1, 2 + 2)
+  //=> 4
+  
+(() => (1 + 1, 2 + 2))()
+  //=> 4 
+   
+(() => {})()
+  //=> undefined - the absence of a value is written **undefined**, and it means there is no value. It will crop up again. undefined is its own type of value, and it acts like a value type
+  
+(() => return 0)()
+  //=> ERROR  
+   
+```
 
 * 1 **arrays and objects are passed by reference** https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
 
