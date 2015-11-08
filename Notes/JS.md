@@ -11,7 +11,7 @@ Just random copy&pastes from the web ...
 
 ## Chapter 2. Functions
 
-[Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#side-effects) uses  several (QUnit](https://qunitjs.com/) functions: module(), test(), ok(), equal()
+* :muscle: :tea: [@_ericelliott](https://twitter.com/_ericelliott) Eric Elliott [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html) uses  several [QUnit](https://qunitjs.com/) functions: module(), test(), ok(), equal()
 
 * 3 If your function operates on outside variables, return a copy instead of the original.
 
