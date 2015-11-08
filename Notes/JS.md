@@ -68,6 +68,7 @@ test('Lambdas.', function () {
     'result should be 15.');
 });
 ```
+
 The .addTo() function passed into .forEach() is a lambda. 
 
 > .addTo() has access to the result variable from the containing function scope's closure
@@ -80,7 +81,7 @@ The .addTo() function passed into .forEach() is a lambda.
   * If a function is used as an argument or return value, it's a lambda.
 
 * #9 Method Context
-Functions are invoked by appending parentheses to the end of the function reference. For these examples, we'll use a slightly altered highPass() function:
+[JavaScript 4 Function Invocations](http://www.w3schools.com/js/js_function_invocation.asp)
 ```
 function highPass(number, cutoff) {
     cutoff = cutoff || this.cutoff;
@@ -95,22 +96,7 @@ var filter1 = {
     // No highPass here!
     cutoff: 3
   };
-```
-The highPass() function takes one required parameter for the number to be tested and one optional parameter for the cutoff. If the optional parameter is not supplied, the function assumes that it is being called as a method of a valid filter object and uses the cutoff property of the object instead.
 
-Function invocation is simple:
-```
-test('Invoking a function.', function () {
-  var result = highPass(6, 5);
-
-  equal(result, true,
-    '6 > 5 should be true.');
-});
-```
-
-Unless you use method invocation (dot notation or square bracket notation), this generally refers to the global object. Assignments to properties on this will pollute the global namespace. It's better to make sure you have a valid object before trying to use this in your function if you expect it might be invoked on its own.
-Method invocation applies the function to the object to which it is attached. It takes the form object.methodName() (dot notation) or object['methodName']() (square bracket notation):
-```
 test('Invoking a method.', function () {
   var result1 = filter1.highPass(3),
     result2 = highPass.call(filter2, 3),
@@ -126,18 +112,23 @@ test('Invoking a method.', function () {
     '6 >= filter1.cutoff should be true.');
 });
 ```
-When you invoke a method with dot notation, you have access to the object's properties using this. The number parameter is compared to filter1.cutoff. The method returns false because 3 is less than the value stored in this.cutoff, which refers to filter1.cutoff. Remember, this refers to the object that the method is called on.
 
-In the second example, the call method (inherited from Function.prototype) delegates to the method on filter2 instead. Because filter2.cutoff is 3 instead of 5, the same test passes this time.
+  * When you invoke a method with dot notation, you have access to the object's properties using this. The number parameter is compared to filter1.cutoff. The method returns false because 3 is less than the value stored in this.cutoff, which refers to filter1.cutoff. Remember, this refers to the object that the method is called on.
 
-To clarify, the [.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) method shared by all functions allows you to call any method or function on any object. In other words, it sets this inside the method to refer to the object of your choosing. The signature is:
+  * In the second example, the call method (inherited from Function.prototype) delegates to the method on filter2 instead. Because filter2.cutoff is 3 instead of 5, the same test passes this time.
+
+  * To clarify, the [.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) method shared by all functions allows you to call any method or function on any object. In other words, it sets this inside the method to refer to the object of your choosing. The signature is:
+  
 ```
 someMethod.call(context, argument1, argument2, ...);
 ```
+
 Here, context is the object you want this to refer to. If you need to pass an array of arguments, use .apply() instead:
+
 ```
 someMethod.apply(context, someArray);
 ```
+
 #### Function.prototype.bind()
 [.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) [.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) [.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)  
 
@@ -146,7 +137,7 @@ As useful as .call() and .apply() can be, they have one serious drawback: they i
 The .bind() method is used to permanently set the value of this inside the target function to the passed in context object. The .bind() method is a recent addition to the language. 
 
 Let's take a look at a common use case for .bind()—an event handler:
-
+```
 var lightbulb = {
     toggle: function toggle() {
       this.isOn = !this.isOn;
@@ -160,11 +151,13 @@ var lightbulb = {
 lightswitch = document.getElementById('lightswitch');
 lightswitch.addEventListener('click',
   lightbulb.toggle, false);
+```  
 Glancing over this code, it looks simple enough. An event listener gets attached to the lightswitch DOM with .addEventListener(). There's just one problem: this code will fail because the context inside an event listener is not the object that the method was assigned to at design time. Instead, it's a reference to the element that was clicked.
 
 Even after you click the switch element, lightbulb.isOn will be false. You can fix this mess with .bind(). You only need to alter the toggle assignment:
-
+```
 toggle = lightbulb.toggle.bind(lightbulb);
+```
 Now, when the user clicks the lightswitch, the lightbulb will turn on or off as expected.
 
 Function Scope
@@ -178,15 +171,16 @@ Hoisting
 Hoisting is the word most commonly used to describe the illusion that all variable declarations are "hoisted" to the top of the containing function. Technically, that's not exactly how it happens, but the effect is the same.
 
 JavaScript builds its execution environment in two passes. The declaration pass sets up the runtime environment, where it scans for all variable and function declarations and creates the identifiers. The second pass is the execution pass. After the first pass, all declared functions are available, but variables are still undefined. Consider this code:
-
+```
 var x = 1;
 
 (function () {
   console.log(x);
   var x = 2;
 }());
+```
 If you guessed that the value of x at the console.log() statement is 1, you're not alone. This is a common source of bugs in JavaScript. In the first pass, the function declarations occur, and x is undefined in both the inner and outer scope. When it gets to the console.log() statement in the execution pass, the inner scoped x has been declared, but is still undefined, because it hasn't hit the initialization in the next statement yet. In effect, this is how JavaScript interprets the code:
-
+```
 var x = 1;
 
 (function () {
@@ -194,8 +188,9 @@ var x = 1;
   console.log(x);
   x = 2; // Initialization is still down here.
 }());
+```
 Functions behave a little differently. Both the identifier number and the function body are hoisted, whereas the value 2 was not hoisted along with x:
-
+```
 test('Function declaration hoisting', function () {
   function number() {
     return 1;
@@ -211,8 +206,9 @@ test('Function declaration hoisting', function () {
 
   equal(number(), 1, 'Outer scope still works.');
 });
+```
 This code is equivalent to:
-
+```
 test('Function declaration hoisted.', function () {
   function number() {
     return 1;
@@ -228,8 +224,9 @@ test('Function declaration hoisted.', function () {
 
   equal(number(), 1, 'Outer scope still works.');
 });
+```
 Function expressions do not share this behavior, because they do not declare a function. Instead, they declare a variable and are subject to the same variable-hoisting behavior:
-
+```
 test('Function expression hoisting', function () {
   function number() {
     return 1;
@@ -251,8 +248,9 @@ test('Function expression hoisting', function () {
 
   equal(number(), 1, 'Outer scope still works.');
 });
+```
 In the function expression example, the number variable is hoisted, but the function body is not hoisted, because it is a named function expression, not a function declaration. The value of number is not defined until runtime. This code is equivalent to:
-
+```
 test('Function Expression Hoisted', function () {
   function number() {
     return 1;
@@ -276,6 +274,7 @@ test('Function Expression Hoisted', function () {
 
   equal(number(), 1, 'Outer scope still works.');
 });
+```
 If you declare all of your variables at the top of your function, and define your functions before you try to use them, you'll never need to worry about any of this. This practice can substantially reduce scope-related bugs.
 Closures
 
@@ -284,7 +283,7 @@ Closures are critical to successful application development.
 In a nutshell, a closure stores function state, even after the function has returned. To create a closure, simply define a function inside another function and expose it. To expose a function, return it or pass it to another function. The inner function will have access to the variables declared in the outer function. This technique is commonly used to give objects data privacy.
 
 Because the closure variables in the outer function are only in scope within the containing function, you can't get at the data except through its privileged methods. In other languages, a privileged method is an exposed method that has access to private data. In JavaScript, any exposed method defined within the closure scope is privileged. For example:
-
+```
 var o = function o () {
   var data = 1,
     get;
@@ -313,6 +312,7 @@ test('Closure for object privacy.', function () {
     '.get() should have access to the closure.'
   );
 });
+```
 In this example, o is an object factory that defines the private variable data and a privileged method, .get(), that has access to it. The factory exposes .get() in the object literal that it returns.
 
 In the test, the return value from o is assigned to the obj variable. In the try block, the attempt to access the private data var throws an error because it is undeclared outside the closure scope.
@@ -320,7 +320,7 @@ In the test, the return value from o is assigned to the obj variable. In the try
 In addition to the data privacy benefits, closures are an essential ingredient in languages that support first-class functions, because they give you access to outer scope variables from inside your lambdas.
 
 Closures are commonly used to feed data to event handlers or callbacks, which might get triggered long after the containing function has finished. For example:
-
+```
 (function () {
   var arr = [],
     count = 1,
@@ -358,6 +358,7 @@ Closures are commonly used to feed data to event handlers or callbacks, which mi
     );
   });
 }());
+```
 In this example, the inner() lambda has access to arr, complete(), and count from the containing function. Its job is to add the current count to the array each time it's called. If the array isn't full yet, it calls the timer() function to set a new timeout so it will be invoked again after the delay has expired.
 
 This is an example of asynchronous recursion, and the pattern is sometimes used to retry Ajax requests when they fail. There is usually a retry limit and a delay so that the server doesn't get hammered with endless retries from millions of users.
@@ -386,7 +387,7 @@ Named Parameters
 The number of variables you pass into a function is called its arity. Generally speaking, function arity should be kept small, but sometimes you need a wide range of parameters (for example, to initialize the configuration of a module or create a new object instance). The trouble with a large arity is that each parameter must be passed into the function in the right order, even if several parameters are not needed. It can be difficult to remember what order is required, and it doesn't make sense to require a parameter that isn't really required for the function to do its job properly.
 
 This example is designed to set up a new user account. Each user account has some default settings that get honored unless an override value is passed in:
-
+```
 var userProto = {
     name: '',
     email: '',
@@ -413,19 +414,23 @@ test('User account creation', function () {
   equal(newUser.colorScheme, 'dark',
     'colorScheme stored correctly.');
 });
-In this case, the createUser() function takes five optional parameters. The userProto object is a prototype (not to be confused with the prototype property). The trouble with this implementation becomes obvious when you look at the usage in isolation:
+```
 
+In this case, the createUser() function takes five optional parameters. The userProto object is a prototype (not to be confused with the prototype property). The trouble with this implementation becomes obvious when you look at the usage in isolation:
+```
 var newUser = createUser('Tonya', '', '', '', 'dark');
+```
 What jumps out immediately is that it's impossible to know what the second, third, or fourth parameter is without looking at the createUser() implementation. It's also impossible to set the last parameter without passing in values for all parameters. What's more, if you want to add more parameters later or change the order of the parameters, it's going to be difficult if the function is used frequently.
 
 Here is a better alternative:
-
+```
 var newUser = createUser({
   name: 'Mike',
   showInSearch: false
 });
+```
 You can implement this easily using the extend method that comes with most popular libraries (including jQuery and Underscore). Here's how it's done with jQuery:
-
+```
 function createUser(options) {
   return $.extend({}, userProto, options);
 }
