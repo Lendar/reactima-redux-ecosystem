@@ -17,6 +17,7 @@ Back [REDUX ecosystem notes] (README.md)
 * :muscle: :tea: [@_ericelliott](https://twitter.com/_ericelliott) Eric Elliott [Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
 * [@slicknet](https://twitter.com/slicknet) Nicholas C. Zakas [Understanding ECMAScript 6](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
 * :muscle: [@rauschma](https://twitter.com/rauschma) Dr. Axel Rauschmayer [Exploring ES6](http://exploringjs.com/es6/)
+* :muscle: [@raganwald](https://twitter.com/raganwald) Reg Braithwaite [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix/read)
 
 ### Articles
 * [fantasy-land - specification for interoperability of common algebraic structures in JavaScript](https://github.com/fantasyland/fantasy-land#monad)
