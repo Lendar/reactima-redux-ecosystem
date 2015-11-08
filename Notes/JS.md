@@ -80,7 +80,7 @@ The .addTo() function passed into .forEach() is a lambda.
 
 * 8 **Closure vs Lambda vs First-class vs Higher Order** functions
 
-  * Lambdas are frequently confused with anonymous functions, closures, first-class functions, and higher order functions. The concepts are all similar, but they mean different things.
+  * Lambdas are frequently confused with anonymous functions, closures **14**, first-class functions, and higher order functions. The concepts are all similar, but they mean different things.
   * A closure is created when a function references data that is contained outside the function scope. A lambda is a function that is used as a value (assigned to a variable or passed between functions)
   * Higher-order functions are functions that consume or return functions as data. Lambdas get passed to and/or returned from higher order functions, and a function might be both a lambda and a higher order function, but not all higher order functions are lambdas.
   * If a function is used as an argument or return value, it's a lambda.
@@ -156,17 +156,30 @@ lightswitch.addEventListener('click',
   lightbulb.toggle, false);
 ```  
 
-* 11 **Function Scope**
-Variable scope is the section of code in which the identifier refers to the expected value. Outside a variable's scope, the variable is undefined or replaced by another variable with the same name. Most C-family languages have block scope, meaning that you can create blocks arbitrarily to contain variables. The var keyword is not block scoped. This is a common source of confusion among people who are new to JavaScript but familiar with other languages.
+* 11 **()()**
+```
+function hi(){
+    return function(){return "hello there";};
+}
 
-var uses function scope instead. Block scope will be available using the let keyword in ES6. It is already implemented in several browsers, but it may be some time before you can safely use it if you need wide cross-browser support.
+var returnedFunc = hi();  // so returnedFunc equals function(){return "hello there";};
+var msg = hi()();         // so msg now has a value of "hello there"
+```
 
-The desire to use block scope can be a good code smell that indicates that it may be time to break a function into smaller pieces in order to encourage readability, organization, and code reuse. It's a good idea to keep functions small.
-Hoisting
 
-Hoisting is the word most commonly used to describe the illusion that all variable declarations are "hoisted" to the top of the containing function. Technically, that's not exactly how it happens, but the effect is the same.
+* 12 **Function Scope**
+  * Variable scope is the section of code in which the identifier refers to the expected value. 
+  * Outside a variable's scope, the variable is undefined or replaced by another variable with the same name.  
+  * The var keyword is not block scoped. var uses function scope instead. Block scope is available using the let keyword in ES6. 
+  * !!! The desire to use block scope can be a good code smell that indicates that it may be time to break a function into smaller pieces in order to encourage readability, organization, and code reuse. It's a good idea to keep functions small.
 
-JavaScript builds its execution environment in two passes. The declaration pass sets up the runtime environment, where it scans for all variable and function declarations and creates the identifiers. The second pass is the execution pass. After the first pass, all declared functions are available, but variables are still undefined. Consider this code:
+
+* 13 **Hoisting** aka always declare all variables at the beginning of every scope.
+  * Hoisting is the word most commonly used to describe the illusion that all variable declarations are "hoisted" to the top of the containing function. Technically, that's not exactly how it happens, but the effect is the same.
+  * JavaScript builds its execution environment in two passes. 
+    * The declaration pass sets up the runtime environment, where it scans for all variable and function declarations and creates the identifiers. The second pass is the execution pass. 
+    * After the first pass, all declared functions are available, but variables are still undefined. 
+    
 ```
 var x = 1;
 
@@ -175,7 +188,9 @@ var x = 1;
   var x = 2;
 }());
 ```
+
 If you guessed that the value of x at the console.log() statement is 1, you're not alone. This is a common source of bugs in JavaScript. In the first pass, the function declarations occur, and x is undefined in both the inner and outer scope. When it gets to the console.log() statement in the execution pass, the inner scoped x has been declared, but is still undefined, because it hasn't hit the initialization in the next statement yet. In effect, this is how JavaScript interprets the code:
+
 ```
 var x = 1;
 
@@ -185,7 +200,9 @@ var x = 1;
   x = 2; // Initialization is still down here.
 }());
 ```
+
 Functions behave a little differently. Both the identifier number and the function body are hoisted, whereas the value 2 was not hoisted along with x:
+
 ```
 test('Function declaration hoisting', function () {
   function number() {
@@ -203,7 +220,9 @@ test('Function declaration hoisting', function () {
   equal(number(), 1, 'Outer scope still works.');
 });
 ```
+
 This code is equivalent to:
+
 ```
 test('Function declaration hoisted.', function () {
   function number() {
@@ -221,7 +240,9 @@ test('Function declaration hoisted.', function () {
   equal(number(), 1, 'Outer scope still works.');
 });
 ```
+
 Function expressions do not share this behavior, because they do not declare a function. Instead, they declare a variable and are subject to the same variable-hoisting behavior:
+
 ```
 test('Function expression hoisting', function () {
   function number() {
@@ -245,7 +266,9 @@ test('Function expression hoisting', function () {
   equal(number(), 1, 'Outer scope still works.');
 });
 ```
+
 In the function expression example, the number variable is hoisted, but the function body is not hoisted, because it is a named function expression, not a function declaration. The value of number is not defined until runtime. This code is equivalent to:
+
 ```
 test('Function Expression Hoisted', function () {
   function number() {
@@ -271,10 +294,9 @@ test('Function Expression Hoisted', function () {
   equal(number(), 1, 'Outer scope still works.');
 });
 ```
-If you declare all of your variables at the top of your function, and define your functions before you try to use them, you'll never need to worry about any of this. This practice can substantially reduce scope-related bugs.
-Closures
 
-Closures are critical to successful application development.
+
+* 14 **Closures** - critical to successful application development ;)
 
 In a nutshell, a closure stores function state, even after the function has returned. To create a closure, simply define a function inside another function and expose it. To expose a function, return it or pass it to another function. The inner function will have access to the variables declared in the outer function. This technique is commonly used to give objects data privacy.
 
