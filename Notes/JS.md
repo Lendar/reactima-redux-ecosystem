@@ -50,7 +50,7 @@ test('Named function expressions.', function () {
 });
 ```
 
-* #7 Lambdas
+* #7 Lambda
      
 > A lambda is a function that is used as data. As such, it can be used the same way any other expression can: as a parameter for another function, the return value of a function, or anywhere you might use a literal value.
 
@@ -71,7 +71,8 @@ test('Lambdas.', function () {
 The .addTo() function passed into .forEach() is a lambda. 
 
 > .addTo() has access to the result variable from the containing function scope's closure
-
 > .forEach() method is one of several **functional enumerators** added to ES5
+
+- [ ] Lambdas are frequently confused with anonymous functions, closures, first-class functions, and higher order functions. The concepts are all similar, but they mean different things.
 
 
