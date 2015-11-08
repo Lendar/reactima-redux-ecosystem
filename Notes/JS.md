@@ -703,4 +703,9 @@ Because many references can share the same value, and because JavaScript passes 
 
 * 102 *closures*
 https://leanpub.com/javascriptallongesix/read#closures
-    
+http://babeljs.io/repl/
+```javascript
+((x) => (y) => x)(1)(2)
+      //=> 1
+```    
+ we apply the function to the argument, create an environment, bind the value of the argument to the name, and evaluate the function’s expression  
