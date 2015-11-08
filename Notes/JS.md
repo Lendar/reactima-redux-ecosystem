@@ -300,7 +300,8 @@ test('Function Expression Hoisted', function () {
 
 In a nutshell, a closure stores function state, even after the function has returned. To create a closure, simply define a function inside another function and expose it. To expose a function, return it or pass it to another function. The inner function will have access to the variables declared in the outer function. This technique is commonly used to give objects data privacy.
 
-Because the closure variables in the outer function are only in scope within the containing function, you can't get at the data except through its privileged methods. In other languages, a privileged method is an exposed method that has access to private data. In JavaScript, any exposed method defined within the closure scope is privileged. For example:
+Because the closure variables in the outer function are only in scope within the containing function, you can't get at the data except through its privileged methods. In other languages, a privileged method is an exposed method that has access to private data. !!! In JavaScript, **any exposed method defined within the closure scope is privileged**. For example:
+
 ```
 var o = function o () {
   var data = 1,
@@ -331,6 +332,7 @@ test('Closure for object privacy.', function () {
   );
 });
 ```
+
 In this example, o is an object factory that defines the private variable data and a privileged method, .get(), that has access to it. The factory exposes .get() in the object literal that it returns.
 
 In the test, the return value from o is assigned to the obj variable. In the try block, the attempt to access the private data var throws an error because it is undeclared outside the closure scope.
