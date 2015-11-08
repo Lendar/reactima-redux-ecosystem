@@ -1,60 +1,6 @@
 ## Best JS quotes and code extractions
 Just random copy&pastes from the web ... 
-* 0  JavaScript Allongé, the "Six" Edition https://leanpub.com/javascriptallongesix/read#leanpub-auto-forewords-to-the-first-edition
-```javascript
-(() => 0)
-  //=> [Function]
-  
-(() => 0) === (() => 0)
-  //=> false  
-  
-(() => 0)()
-  //=> 0
 
-// comma operator
-(1, 2)
-  //=> 2
-
-(1 + 1, 2 + 2)
-  //=> 4
-  
-(() => (1 + 1, 2 + 2))()
-  //=> 4 
-   
-(() => {})()
-  //=> undefined - the absence of a value is written **undefined**, 
-  // and it means there is no value.
-  // undefined is its own type of value, and it acts like a value type
-  
-(() => return 0)()
-  //=> ERROR  
-
-// That’s a function, that returns a function, that returns true:
-(() => () => true)()()
-  //=> true  
-   
-((room, board) => room + board)(800, 150)
-  //=> 950
-
-(x) => (y) => x     
-```
-#### What is going to happen?
-
-```javascript
-((x) => x)(2)
-  //=> 2 
-```
-
-  * JavaScript parses this whole thing as an expression made up of several sub-expressions.
-  * It then starts evaluating the expression, including evaluating sub-expressions
-  * One sub-expression, (x) => x evaluates to a function.
-  * Another, 2, evaluates to the number 2.
-  * JavaScript now evaluates applying the function to the argument 2. Here’s where it gets interesting…
-  * An environment is created.
-  * The value ‘2’ is bound to the name ‘x’ in the environment.
-  * The expression ‘x’ (the right side of the function) is evaluated within the environment we just created.
-  * The value of a variable when evaluated in an environment is the value bound to the variable’s name in that environment, which is ‘2’
-  * And that’s our result.
 
 
 * 1 **arrays and objects are passed by reference** https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
@@ -683,3 +629,78 @@ test('String number generics', function () {
     'String methods work on numbers.');
 });
 ```
+
+* 100  JavaScript Allongé, the "Six" Edition https://leanpub.com/javascriptallongesix/read#leanpub-auto-forewords-to-the-first-edition
+```javascript
+(() => 0)
+  //=> [Function]
+  
+(() => 0) === (() => 0)
+  //=> false  
+  
+(() => 0)()
+  //=> 0
+
+// comma operator
+(1, 2)
+  //=> 2
+
+(1 + 1, 2 + 2)
+  //=> 4
+  
+(() => (1 + 1, 2 + 2))()
+  //=> 4 
+   
+(() => {})()
+  //=> undefined - the absence of a value is written **undefined**, 
+  // and it means there is no value.
+  // undefined is its own type of value, and it acts like a value type
+  
+(() => return 0)()
+  //=> ERROR  
+
+// That’s a function, that returns a function, that returns true:
+(() => () => true)()()
+  //=> true  
+   
+((room, board) => room + board)(800, 150)
+  //=> 950
+
+(x) => (y) => x     
+```
+#### What is going to happen?
+
+```javascript
+((x) => x)(2)
+  //=> 2 
+```
+
+  * JavaScript parses this whole thing as an expression made up of several sub-expressions.
+  * It then starts evaluating the expression, including evaluating sub-expressions
+  * One sub-expression, (x) => x evaluates to a function.
+  * Another, 2, evaluates to the number 2.
+  * JavaScript now evaluates applying the function to the argument 2. Here’s where it gets interesting…
+  * An environment is created.
+  * The value ‘2’ is bound to the name ‘x’ in the environment.
+  * The expression ‘x’ (the right side of the function) is evaluated within the environment we just created.
+  * The value of a variable when evaluated in an environment is the value bound to the variable’s name in that environment, which is ‘2’
+  * And that’s our result.
+
+* 101 **“call by sharing”** 
+JavaScript strictly maintains: When a value–any value–is passed as an argument to a function, the value bound in the function’s environment must be identical to the original.
+
+We said that JavaScript binds names to values, but we didn’t say what it means to bind a name to a value. Now we can elaborate: **When JavaScript binds a value-type to a name, it makes a copy of the value and places the copy in the environment.** As you recall, value types like strings and numbers are identical to each other if they have the same content. So JavaScript can make as many copies of strings, numbers, or booleans as it wishes.
+
+What about reference types? JavaScript does not place copies of reference values in any environment. JavaScript places references to reference types in environments, and when the value needs to be used, JavaScript uses the reference to obtain the original.
+
+Because many references can share the same value, and because JavaScript passes references as arguments, JavaScript can be said to implement **“call by sharing”**. Call by sharing is generally understood to be a specialization of call by value, and it explains why some values are known as value types and other values are known as reference types.
+
+```javascript
+(value) =>
+  (copy) =>
+    copy === value
+```    
+
+* 102 *closures*
+https://leanpub.com/javascriptallongesix/read#closures
+    
