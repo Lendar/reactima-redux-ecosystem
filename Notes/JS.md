@@ -72,7 +72,7 @@ test('Lambdas.', function () {
 The .addTo() function passed into .forEach() is a lambda. 
 
 > .addTo() has access to the result variable from the containing function scope's closure 
-.forEach() method is one of several **functional enumerators** added to ES5
+> .forEach() method is one of several **functional enumerators** added to ES5
 
 * 8. Closure vs Lambda vs First-class vs Higher Order functions
 
