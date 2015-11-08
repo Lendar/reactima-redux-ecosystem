@@ -8,3 +8,16 @@ Just random copy&pastes from the web ...
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
 
 > The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for..of construct. Some built-in types are built-in iterables with a default iteration behavior, such as Array or Map, while other types (such as Object) are not.
+
+* http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#side-effects
+> If your function operates on outside variables, return a copy instead of the original.
+
+
+```
+var bar = function () {
+    return arguments.callee;
+};
+
+bar(); //=> [Function] (Note: It's anonymous.)
+```
+> The bar() example assigns a function body to the variable, bar. This implementation is called a function expression.
