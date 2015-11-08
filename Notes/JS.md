@@ -107,6 +107,7 @@ test('Invoking a function.', function () {
     '6 > 5 should be true.');
 });
 ```
+
 Unless you use method invocation (dot notation or square bracket notation), this generally refers to the global object. Assignments to properties on this will pollute the global namespace. It's better to make sure you have a valid object before trying to use this in your function if you expect it might be invoked on its own.
 Method invocation applies the function to the object to which it is attached. It takes the form object.methodName() (dot notation) or object['methodName']() (square bracket notation):
 ```
@@ -142,7 +143,7 @@ someMethod.apply(context, someArray);
 
 As useful as .call() and .apply() can be, they have one serious drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.
 
-The .bind() method is used to permanently set the value of this inside the target function to the passed in context object. The .bind() method is a recent addition to the language. It was first popularized by Prototype and adopted in many other libraries and was standardized in ECMAScript 5. If you want to use it in older browsers, you'll need to shim it or use one of many available library implementations.
+The .bind() method is used to permanently set the value of this inside the target function to the passed in context object. The .bind() method is a recent addition to the language. 
 
 Let's take a look at a common use case for .bind()—an event handler:
 
