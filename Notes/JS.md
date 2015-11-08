@@ -1,11 +1,11 @@
 ## Best JS quotes and code extractions
 Just random copy&pastes from the web ...
 
-* 1 arrays and objects are passed by reference ﬁhttps://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
+* 1 **arrays and objects are passed by reference** https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
 
 > In JavaScript, arrays and objects are passed by reference, so if you mutate array or object parameters, it doesn’t just affect the variable inside the function. It also affects any other function that uses a reference to the same variable.
 
-* 2 iterable protocol https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
+* 2 **iterable protocol** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
 
 > The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for..of construct. Some built-in types are built-in iterables with a default iteration behavior, such as Array or Map, while other types (such as Object) are not.
 
@@ -13,7 +13,7 @@ Just random copy&pastes from the web ...
 
 > !!! If your function operates on outside variables, return a copy instead of the original.
 
-* 4 function expression
+* 4 **function expression**
 ```
 var bar = function () {
     return arguments.callee;
@@ -23,7 +23,7 @@ bar(); //=> [Function] (Note: It's anonymous.)
 ```
 > The bar() example assigns a function body to the variable, bar. This implementation is called a function expression.
 
-* 5 object literal
+* 5 **object literal**
 
 ```
 var myObject = {
@@ -34,7 +34,7 @@ var myObject = {
 ```
 > An object literal is a comma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, enclosing it in a tidy package. This minimizes the use of global variables which can cause problems when combining code.
 
-* 6 Named function expressions
+* 6 **named function expressions**
 
 ```
 test('Named function expressions.', function () {
@@ -52,7 +52,7 @@ test('Named function expressions.', function () {
 });
 ```
 
-* 7 Lambda
+* 7 **lambda**
      
 > A lambda is a function that is used as data. As such, it can be used the same way any other expression can: as a parameter for another function, the return value of a function, or anywhere you might use a literal value.
 
@@ -78,14 +78,14 @@ The .addTo() function passed into .forEach() is a lambda.
 .forEach() method is one of several **functional enumerators** added to ES5
 ```
 
-* 8 Closure vs Lambda vs First-class vs Higher Order functions
+* 8 **Closure vs Lambda vs First-class vs Higher Order** functions
 
   * Lambdas are frequently confused with anonymous functions, closures, first-class functions, and higher order functions. The concepts are all similar, but they mean different things.
   * A closure is created when a function references data that is contained outside the function scope. A lambda is a function that is used as a value (assigned to a variable or passed between functions)
   * Higher-order functions are functions that consume or return functions as data. Lambdas get passed to and/or returned from higher order functions, and a function might be both a lambda and a higher order function, but not all higher order functions are lambdas.
   * If a function is used as an argument or return value, it's a lambda.
 
-* 9 Method Context
+* 9 **Method Context**
 [JavaScript 4 Function Invocations](http://www.w3schools.com/js/js_function_invocation.asp)
 
 ```
@@ -135,14 +135,11 @@ Here, context is the object you want this to refer to. If you need to pass an ar
 someMethod.apply(context, someArray);
 ```
 
-#### Function.prototype.bind()
+* 10 **Function.prototype.bind()**
 [.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) [.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) [.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)  
 
-As useful as .call() and .apply() can be, they have one serious drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.
+.call() and .apply() drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.The .bind() method is used to permanently set the value of this inside the target function to the passed in context object. 
 
-The .bind() method is used to permanently set the value of this inside the target function to the passed in context object. The .bind() method is a recent addition to the language. 
-
-Let's take a look at a common use case for .bind()—an event handler:
 ```
 var lightbulb = {
     toggle: function toggle() {
@@ -151,22 +148,15 @@ var lightbulb = {
     },
     isOn: false
   },
-  toggle = lightbulb.toggle,
+  toggle = lightbulb.toggle.bind(lightbulb);
   lightswitch = document.getElementById('lightswitch');
 
 lightswitch = document.getElementById('lightswitch');
 lightswitch.addEventListener('click',
   lightbulb.toggle, false);
 ```  
-Glancing over this code, it looks simple enough. An event listener gets attached to the lightswitch DOM with .addEventListener(). There's just one problem: this code will fail because the context inside an event listener is not the object that the method was assigned to at design time. Instead, it's a reference to the element that was clicked.
 
-Even after you click the switch element, lightbulb.isOn will be false. You can fix this mess with .bind(). You only need to alter the toggle assignment:
-```
-toggle = lightbulb.toggle.bind(lightbulb);
-```
-Now, when the user clicks the lightswitch, the lightbulb will turn on or off as expected.
-
-Function Scope
+* 11 **Function Scope**
 Variable scope is the section of code in which the identifier refers to the expected value. Outside a variable's scope, the variable is undefined or replaced by another variable with the same name. Most C-family languages have block scope, meaning that you can create blocks arbitrarily to contain variables. The var keyword is not block scoped. This is a common source of confusion among people who are new to JavaScript but familiar with other languages.
 
 var uses function scope instead. Block scope will be available using the let keyword in ES6. It is already implemented in several browsers, but it may be some time before you can safely use it if you need wide cross-browser support.
