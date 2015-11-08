@@ -1,5 +1,5 @@
 ## Best JS quotes and code extractions
-Just random copy&pastes from the web ...
+Just random copy&pastes from the web ... 
 
 * 1 **arrays and objects are passed by reference** https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
 
@@ -9,9 +9,11 @@ Just random copy&pastes from the web ...
 
 > The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for..of construct. Some built-in types are built-in iterables with a default iteration behavior, such as Array or Map, while other types (such as Object) are not.
 
-* 3 http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#side-effects
+## Chapter 2. Functions
 
-> !!! If your function operates on outside variables, return a copy instead of the original.
+[Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#side-effects) uses  several (QUnit](https://qunitjs.com/) functions: module(), test(), ok(), equal()
+
+* 3 If your function operates on outside variables, return a copy instead of the original.
 
 * 4 **function expression**
 ```
