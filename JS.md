@@ -34,11 +34,10 @@ Pure function > Function > Factory > Class
 A constructor is just a factory function with this glued to the new object for your “convenience”.
  In other words, it’s a less flexible subset of a factory function.
 ``` 
-* The Two Pillars of JavaScript [Part 1: How to Escape the 7th Circle of Hell](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
+* The Two Pillars of JavaScript [Part 1: How to Escape the 7th Circle of Hell](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3) [Part 2:How to Stop Micromanaging Everything](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
 ```
-Prototypal Inheritance (objects without classes, and prototype delegation, 
-aka OLOO — Objects Linking to Other Objects), and
-Functional Programming (enabled by lambdas with closure)
+#1 Prototypal Inheritance (objects without classes, and prototype delegation, aka OLOO — Objects Linking to Other Objects)
+#2 Functional Programming (enabled by lambdas with closure)
 ``` 
 * :muscle: [The Single Biggest Mistake Programmers Make Every Day](https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308)
 * :muscle: [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a#.23df3eq1y)
@@ -46,6 +45,7 @@ Functional Programming (enabled by lambdas with closure)
 If you don’t understand prototypes,
 you don’t understand JavaScript.
 ```
+* [The Open Minded Explorer’s Guide to Object Composition](https://medium.com/javascript-scene/the-open-minded-explorer-s-guide-to-object-composition-88fe68961bed)
  
 ### ES7 aka Crazy and beyond
 * [Stamp Specification: Composables](https://github.com/stampit-org/stamp-specification#stamp-specification-composables)
