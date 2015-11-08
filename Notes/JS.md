@@ -51,8 +51,7 @@ test('Named function expressions.', function () {
 ```
 
 * #7 Lambda
-     
-> A lambda is a function that is used as data. As such, it can be used the same way any other expression can: as a parameter for another function, the return value of a function, or anywhere you might use a literal value.
+
 
 * #8 Closure vs Lambda vs First-class vs Higher Order functions
 
