@@ -129,13 +129,16 @@ When you invoke a method with dot notation, you have access to the object's prop
 
 In the second example, the call method (inherited from Function.prototype) delegates to the method on filter2 instead. Because filter2.cutoff is 3 instead of 5, the same test passes this time.
 
-To clarify, the .call() method shared by all functions allows you to call any method or function on any object. In other words, it sets this inside the method to refer to the object of your choosing. The signature is:
-
+To clarify, the [.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) method shared by all functions allows you to call any method or function on any object. In other words, it sets this inside the method to refer to the object of your choosing. The signature is:
+```
 someMethod.call(context, argument1, argument2, ...);
+```
 Here, context is the object you want this to refer to. If you need to pass an array of arguments, use .apply() instead:
-
+```
 someMethod.apply(context, someArray);
-Function.prototype.bind()
+```
+#### Function.prototype.bind()
+[.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call) [.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply) [.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)  
 
 As useful as .call() and .apply() can be, they have one serious drawback: they impermanently bind the context to the target method. You have to remember to use them every time you invoke the method, and you have to have access to the context object in scope. That's not always easy, particularly in event handlers.
 
