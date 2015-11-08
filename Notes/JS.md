@@ -340,6 +340,7 @@ In the test, the return value from o is assigned to the obj variable. In the try
 In addition to the data privacy benefits, closures are an essential ingredient in languages that support first-class functions, because they give you access to outer scope variables from inside your lambdas.
 
 Closures are commonly used to feed data to event handlers or callbacks, which might get triggered long after the containing function has finished. For example:
+
 ```
 (function () {
   var arr = [],
@@ -391,95 +392,34 @@ As you can see, the final equal() assertion in the program listing is actually t
 
 Each time inner() gets called, count is incremented and pushed onto the array, arr. Since count and arr were defined inside the closure, it's possible to access them from other functions in the same scope, which is why we can test them in the asyncTest() call.
 
-Method Design
-Several techniques exist in JavaScript to design method APIs. JavaScript supports named parameter lists, function polymorphism, method chaining, and lambda expressions. You should be familiar with all of these techniques so that you can choose the right tool for the job.
+* 15 **Method Design**
+  * Several techniques exist in JavaScript to design method APIs. 
+  * JavaScript supports 
+    * named parameter lists, 
+    * function polymorphism, 
+    * method chaining, and 
+    * lambda expressions. 
 
-There are some principles to keep in mind when you design your methods. This bears repeating:
+* 15 **Named Parameters**
+Garbage was here ... See ES6 destructing, spread, etc
 
-Keep It Simple, Stupid (KISS)
-
-Do One Thing (DOT), and do it well
-
-Don't Repeat Yourself (DRY)
-
-Named Parameters
-
-The number of variables you pass into a function is called its arity. Generally speaking, function arity should be kept small, but sometimes you need a wide range of parameters (for example, to initialize the configuration of a module or create a new object instance). The trouble with a large arity is that each parameter must be passed into the function in the right order, even if several parameters are not needed. It can be difficult to remember what order is required, and it doesn't make sense to require a parameter that isn't really required for the function to do its job properly.
-
-This example is designed to set up a new user account. Each user account has some default settings that get honored unless an override value is passed in:
+* 16 **Function Polymorphism**
+  * Polymorphism means that something behaves differently based on context
+  * Polymorphic functions behave differently based on the parameters you pass into them. In JavaScript, those parameters are stored in the array-like arguments object, but it’s missing useful array methods.
+  * Array.prototype.[slice()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) is an easy way to shallow copy some or all of an array (or an array-like object). You can borrow the .slice() method from the Array prototype using a technique called **method delegation**. You delegate the .slice() call to the Array.prototype object.
+  
 ```
-var userProto = {
-    name: '',
-    email: '',
-    alias: '',
-    showInSearch: true,
-    colorScheme: 'light'
-  };
-
-function createUser(name, email, alias, showInSearch, 
-  colorScheme) {
-
-  return {
-    name: name || userProto.name,
-    name: email || userProto.email,
-    alias: alias || userProto.alias,
-    showInSearch: showInSearch,
-    colorScheme: colorScheme || userProto.colorScheme
-  };
-}
-
-test('User account creation', function () {
-  var newUser = createUser('Tonya', '', '', '', 'dark');
-    
-  equal(newUser.colorScheme, 'dark',
-    'colorScheme stored correctly.');
-});
-```
-
-In this case, the createUser() function takes five optional parameters. The userProto object is a prototype (not to be confused with the prototype property). The trouble with this implementation becomes obvious when you look at the usage in isolation:
-```
-var newUser = createUser('Tonya', '', '', '', 'dark');
-```
-What jumps out immediately is that it's impossible to know what the second, third, or fourth parameter is without looking at the createUser() implementation. It's also impossible to set the last parameter without passing in values for all parameters. What's more, if you want to add more parameters later or change the order of the parameters, it's going to be difficult if the function is used frequently.
-
-Here is a better alternative:
-```
-var newUser = createUser({
-  name: 'Mike',
-  showInSearch: false
-});
-```
-You can implement this easily using the extend method that comes with most popular libraries (including jQuery and Underscore). Here's how it's done with jQuery:
-```
-function createUser(options) {
-  return $.extend({}, userProto, options);
-}
-$.extend() takes objects as its parameters. The first is the object to be extended. In this case, we want to return a new object so that we don't alter the userProto or options objects. The other objects (as many as you like) hold the properties and methods you wish to extend the first object with. This is a simple, elegant way to reuse code.
-
-Function Polymorphism
-
-In computer science, polymorphism means that something behaves differently based on context, like words that have different meanings based on how they're used:
-
-"Watch out for that sharp turn in the road!"
-
-"That knife is sharp!"
-
-"John Resig is sharp! Making the jQuery function polymorphic was a stroke of genius."
-
-Polymorphic functions behave differently based on the parameters you pass into them. In JavaScript, those parameters are stored in the array-like arguments object, but it’s missing useful array methods.
-
-Array.prototype.slice() is an easy way to shallow copy some or all of an array (or an array-like object).
-
-You can borrow the .slice() method from the Array prototype using a technique called method delegation. You delegate the .slice() call to the Array.prototype object. The method call looks like this:
-
 var args = Array.prototype.slice.call(arguments, 0);
-Slice starts at index 0 and returns everything from that index on as a new array. That syntax is a little long winded, though. It's easier and faster to write:
+```
 
+Slice starts at index 0 and returns everything from that index on as a new array. That syntax is a little long winded, though. It's easier and faster to write:
+```
 var args = [].slice.call(arguments, 0);
+```
 The square bracket notation creates a new empty array to delegate the slice call to. That sounds like it might be slow, but creating an empty array is actually a very fast operation. I ran an A/B performance test with millions of operations and didn't see a blip in the memory use or any statistically significant difference in operation speed.
 
 You could use this technique to create a function that sorts parameters:
-
+```
 function sort() {
   var args = [].slice.call(arguments, 0);
   return args.sort();
@@ -489,13 +429,16 @@ test('Sort', function () {
   var result = sort('b', 'a', 'c');   
   ok(result, ['a', 'b', 'c'], 'Sort works!');
 });
+```
+
 Because arguments is not a real array, it doesn't have the .sort() method. However, since a real array is returned from the .slice() call, you have access to all of the array methods on the args array. The .sort() method returns a sorted version of the array.
 
 Polymorphic functions frequently need to examine the first argument in order to decide how to respond. Now that args is a real array, you can use the .shift() method to get the first argument:
-
+```
 var first = args.shift();
+```
 Now you can branch if a string is passed as the first parameter:
-
+```
 function morph(options) {
   var args = [].slice.call(arguments, 0),
     animals = 'turtles'; // Set a default
@@ -519,12 +462,13 @@ test('Polymorphic branching.', function () {
   equal(test3, 'The pet store has 2 turtles.',
     'The pet store has 2 turtles.');
 });
-Method dispatch
+```
+* 16 **Method dispatch**
+  * Method dispatch is the mechanism that determines what to do when an object receives a message. JavaScript does this by checking to see if the method exists on the object. If it doesn't, the JavaScript engine checks the prototype object. If the method isn't there, it checks the prototype's prototype, and so on. When it finds a matching method, it calls the method and passes the parameters in. This is also known as behavior delegation in delegation-based prototypal languages like JavaScript.
 
-Method dispatch is the mechanism that determines what to do when an object receives a message. JavaScript does this by checking to see if the method exists on the object. If it doesn't, the JavaScript engine checks the prototype object. If the method isn't there, it checks the prototype's prototype, and so on. When it finds a matching method, it calls the method and passes the parameters in. This is also known as behavior delegation in delegation-based prototypal languages like JavaScript.
+  * Dynamic dispatch enables polymorphism by selecting the appropriate method to run based on the parameters that get passed into the method at runtime. Some languages have special syntax to support dynamic dispatch. In JavaScript, you can check the parameters from within the called method and call another method in response:
 
-Dynamic dispatch enables polymorphism by selecting the appropriate method to run based on the parameters that get passed into the method at runtime. Some languages have special syntax to support dynamic dispatch. In JavaScript, you can check the parameters from within the called method and call another method in response:
-
+```
 var methods = {
     init: function (args) {
       return 'initializing...';
@@ -562,10 +506,14 @@ test('Dynamic dispatch', function () {
   equal(test3, 'Goodbye, cruel world!',
     'Dispatched to goodbye method.');
 });
+```
 This manual style of dynamic dispatch is a common technique in jQuery plug-ins in order to enable developers to add many methods to a plug-in without adding them all to the jQuery prototype (jQuery.fn). Using this technique, you can claim a single name on the jQuery prototype and add as many methods as you like to it. Users then select the method they want to invoke using:
 
+```
 $(selection).yourPlugin('methodName', params);
-Generics and Collection Polymorphism
+```
+
+* 17 **Generics and Collection Polymorphism**
 
 Generic programming is a style that attempts to express algorithms and data structures in a way that is type agnostic. The idea is that most algorithms can be employed across a variety of different types. Generic programming typically starts with one or more type-specific implementations, which then get lifted (abstracted) to create a more generic version that will work with a new set of types.
 
@@ -583,6 +531,7 @@ Many of the functions you might apply to an array would also work for an object 
 
 The easiest way to select a random element is to use a numbered index, so if the collection is an object, it could be converted to an array using ad-hoc polymorphism. The following function will do that:
 
+```
 var toArray = function toArray(obj) {
   var arr = [],
     prop;
@@ -594,8 +543,11 @@ var toArray = function toArray(obj) {
   }
   return arr;
 };
+```
+
 The randomItem() function is easy now. First, you test the type of collection that gets passed in and convert it to an array if it's not one already, and then return a random item from the array using the built-in Math.random() method:
 
+```
 var randomItem = function randomItem(collection) {
   var arr = ({}.toString.call(collection) !== 
     '[object Array]')
@@ -618,6 +570,8 @@ test('randomItem()', function () {
   ok(obj.hasOwnProperty(randomItem(arr)),
     'randomItem works on Arrays.');
 });
+```
+
 These tests check to see if the returned value exists in the test object.
 
 Unlike true generics, this code relies on conditional branching internally to handle objects as a special case. Since arrays are already objects in JavaScript, a lot of what you might do with an object will work for arrays without any conversion. In other words, a lot of functions designed to act on JavaScript objects are truly generic in that they will also work for arrays without any specialized logic (assuming that the array has all of the required features).
@@ -626,6 +580,7 @@ Collection polymorphism is a very useful tool for code reuse and API consistency
 
 JavaScript 1.6 introduced a number of new built-in array and string generics. With 1.6 compatible JavaScript engines, you can use array methods such as .every() on strings:
 
+```
 var validString = 'abc',
   invalidString = 'abcd',
 
@@ -649,8 +604,11 @@ test('Array String generics', function () {
   ok([].every.call(validArray, isValid),
     'validArray passes.');
 });
+```
+
 You can also use string methods on numbers:
 
+```
 var num = 303;
 
 test('String number generics', function () {
@@ -659,3 +617,4 @@ test('String number generics', function () {
   ok(i === 1,
     'String methods work on numbers.');
 });
+```
