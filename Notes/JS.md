@@ -16,7 +16,7 @@ Just random copy&pastes from the web ...
 * 3 If your function operates on outside variables, return a copy instead of the original.
 
 * 4 **function expression**
-```
+```javascript
 var bar = function () {
     return arguments.callee;
 };
@@ -27,7 +27,7 @@ bar(); //=> [Function] (Note: It's anonymous.)
 
 * 5 **object literal**
 
-```
+```javascript
 var myObject = {
     sProp: 'some string value',
     numProp: 2,
@@ -38,7 +38,7 @@ var myObject = {
 
 * 6 **named function expressions**
 
-```
+```javascript
 test('Named function expressions.', function () {
   var a = function x () {
     ok(x, 'x() is usable inside the function.');
@@ -58,7 +58,7 @@ test('Named function expressions.', function () {
      
 > A lambda is a function that is used as data. As such, it can be used the same way any other expression can: as a parameter for another function, the return value of a function, or anywhere you might use a literal value.
 
-```
+```javascript
 var sum = function sum() {
   var result = 0;
 
@@ -90,7 +90,7 @@ The .addTo() function passed into .forEach() is a lambda.
 * 9 **Method Context**
 [JavaScript 4 Function Invocations](http://www.w3schools.com/js/js_function_invocation.asp)
 
-```
+```javascript
 function highPass(number, cutoff) {
     cutoff = cutoff || this.cutoff;
     return (number >= cutoff);
