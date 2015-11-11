@@ -708,4 +708,70 @@ http://babeljs.io/repl/
 ((x) => (y) => x)(1)(2)
       //=> 1
 ```    
- we apply the function to the argument, create an environment, bind the value of the argument to the name, and evaluate the function’s expression  
+   * we apply the function to the argument, create an environment, bind the value of the argument to the name, and evaluate the function’s expression  
+   * the environment belonging to the function with signature (x) => ... becomes {x: 1, ...}, and the result of applying the function is another function value
+   
+   * Functions containing no free variables are called pure functions.
+   * Functions containing one or more free variables are called closures.
+
+* 103 Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses **lexical scope**.  The scope of an inner function contains the scope of a parent function.
+      
+```javascript   
+((diameter_fn) =>
+  ((PI) =>
+    diameter_fn(2)
+  )(3)
+)(
+  ((PI) =>
+    (diameter) => diameter * PI
+  )(3.14159265)
+)
+  //=> 6.2831853
+  
+((diameter_fn) => {
+  const PI = 3;
+  
+  return diameter_fn(2)
+})(
+  (() => {
+    const PI = 3.14159265;
+    
+    return (diameter) => diameter * PI
+  })()
+)  
+```
+  
+inner binding does not overwrite the outer binding  
+```javascript   
+((PI) => {
+  ((PI) => {})(3);
+  
+  return (diameter) => diameter * PI;
+})(3.14159265)(2)
+  //=> 6.2831853
+```  
+
+
+```javascript   
+
+```  
+```javascript   
+
+```  
+
+
+```javascript   
+
+```  
+```javascript   
+
+```  
+
+
+```javascript   
+
+```  
+```javascript   
+
+```  
+
