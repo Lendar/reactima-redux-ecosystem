@@ -26,7 +26,7 @@ Back [REDUX ecosystem notes] (README.md)
 * :tea: [React: A (very brief) talk about immutability](https://medium.com/@cassiozen/a-brief-talk-about-immutability-and-react-s-helpers-70919ab8ae7c#.5vidlw2s8)
 * Dan Abramov [How to Use Classes and Sleep at Night](https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4#.b72gk999t)
 
-### Eric Elliott [@_ericelliott](https://twitter.com/_ericelliott)
+### Eric Elliott [@_ericelliott](https://twitter.com/_ericelliott) https://medium.com/@_ericelliott
 * [Stop Using Constructor Functions In JavaScript 2012](http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript/)
 * [JavaScript Constructor Functions Vs Factory Functions 2013](http://ericleads.com/2013/01/javascript-constructor-functions-vs-factory-functions/)
 ```

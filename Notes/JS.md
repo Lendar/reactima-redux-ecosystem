@@ -702,6 +702,9 @@ Because many references can share the same value, and because JavaScript passes 
 ```    
 
 * 102 *closures*
+Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+http://www.datchley.name/basic-scope/
 https://leanpub.com/javascriptallongesix/read#closures
 http://babeljs.io/repl/
 ```javascript
