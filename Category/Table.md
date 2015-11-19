@@ -12,11 +12,6 @@ The primary distinguishing features of Ramda are:
 * Ramda functions are automatically curried. 
 * The parameters to Ramda functions are arranged to make it convenient for currying. 
   The data to be operated on is generally supplied last.
-
-The last two points together make it very easy to build functions 
-as sequences of simpler functions, each of which transforms the data 
-and passes it along to the next. 
-Ramda is designed to support this style of coding.
 ```
 
 #### Part One
