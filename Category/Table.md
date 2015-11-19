@@ -1,11 +1,12 @@
 ##Category Theory for ES6
 
 ### Table of Contents
-This is an attempt to recompile thoughts and ideas from [Category Theory for Programmers]() by [Bartosz Milewski](https://twitter.com/BartoszMilewski) into ES6 examples.Bartosz Milewski work is great, however most of examples are heavily relied on [Haskell](https://www.haskell.org/) - statically typed purely-functional programming language for guys with Ph.D., but not for humans who needs quick results and under heavy pressure from business. 
+This is an attempt to recompile thoughts and ideas from [Category Theory for Programmers](http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/) by [Bartosz Milewski](https://twitter.com/BartoszMilewski) into ES6 examples.
+Bartosz Milewski work is great, however most of examples are heavily relied on [Haskell](https://www.haskell.org/) ([tryhaskell.org](https://tryhaskell.org/)) - statically typed purely-functional programming language for guys with Ph.D., but not for humans who needs quick results and under heavy pressure from business. 
 
-Sub-goal is to find parallels with great [Ramda.js](http://ramdajs.com/) library.
+Sub-goal is to find parallels with great [Ramda.js](http://ramdajs.com/) library
 ```
-Ramda distinguishing features are:
+The primary distinguishing features of Ramda are:
 * Ramda emphasizes a purer functional style. 
   Immutability and side-effect free functions are at the heart of its design philosophy. 
 * Ramda functions are automatically curried. 
