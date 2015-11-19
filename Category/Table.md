@@ -1,3 +1,5 @@
+##Category Theory for ES6
+
 ### Table of Contents
 This is an attempt to recompile [Category Theory for Programmers: The Preface]() by [Bartosz Milewski](https://twitter.com/BartoszMilewski) in ES6.
 Bartosz examples are heavily relied on [Haskell](https://www.haskell.org/) - statically typed purely-functional programming language for guys with Ph.D.

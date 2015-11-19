@@ -1,6 +1,12 @@
 ## Best JS quotes and code extractions
 Just random copy&pastes from the web ... 
 
+* Ground Zero
+map, http://ramdajs.com/0.18.0/docs/#map
+filter, http://ramdajs.com/0.18.0/docs/#filter
+concatAll, http://ramdajs.com/0.18.0/docs/#concat
+reduce, http://ramdajs.com/0.18.0/docs/#reduce
+zip, http://ramdajs.com/0.18.0/docs/#zip
 
 
 * 1 **arrays and objects are passed by reference** https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
