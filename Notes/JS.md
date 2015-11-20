@@ -8,6 +8,38 @@ concatAll, http://ramdajs.com/0.18.0/docs/#concat
 reduce, http://ramdajs.com/0.18.0/docs/#reduce
 zip, http://ramdajs.com/0.18.0/docs/#zip
 
+* 0 An example of ES6 class inheritance
+```javascript
+class someClass {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    sayName() {
+        alert(this.name);
+    }
+}
+
+class Child extends someClass {
+    constructor(name, age) {
+        super(name, age);
+    }
+    
+    // Override the someClass method above
+    sayName() {
+        // This will call someClass.sayName() triggering the old alert
+        // Which will just display our name
+        super.sayName();
+        
+        // This will trigger the new alert which has labels and our age
+        alert('Name:' + this.name + ' Age:' + this.age);
+    }
+}
+
+var myChild = new Child('dwayne', 27);
+myChild.sayName();
+```
 
 * 1 **arrays and objects are passed by reference** https://medium.com/javascript-scene/the-single-biggest-mistake-programmers-make-every-day-62366b432308
 
