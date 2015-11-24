@@ -45,6 +45,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Debugging Memory Leaks in Node.js Applications](http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications)
 
 ### Articles And Tutorials
+* [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#immutable-data-and-pure-rendering
 * [DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * [Tutorial: Handcrafting an Isomorphic Redux Application (With Love)](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
 * [Understanding Redux Middleware](https://medium.com/@meagle/understanding-87566abcfb7a)
