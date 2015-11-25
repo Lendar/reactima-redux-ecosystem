@@ -1,5 +1,4 @@
 :game_die:Start with [JS/ES6/ES2015!] (JS.md)
-
 ## Hand-picked Redux Ecosystem Nov 25 2015
 Redux - Predictable state container for JavaScript apps which makes you forget about all other frameworks, tools, ecosystems or even coming [WebAssembly] ( https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.1x0ooowqn). Makes you believe that you are in control on apps state and data flow.
 
