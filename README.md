@@ -1,10 +1,5 @@
 :game_die:Start with [JS/ES6/ES2015!] (JS.md)
 
-#### WIP notes:  
-* [Reactima notes on Immutable.js](Notes/Immutable.md)  
-* [Reactima notes on Node.js Dev/Sys/OOOPS](DEVOPS.md) 
-* [Reactima: Aim to be in Top 3% by learning screening process](Notes/TopSmth.md)  
-
 ## Hand-picked Redux Ecosystem Nov 25 2015
 Redux - Predictable state container for JavaScript apps which makes you forget about all other frameworks, tools, ecosystems or even coming [WebAssembly] ( https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.1x0ooowqn). Makes you believe that you are in control on apps state and data flow.
 
@@ -113,3 +108,8 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 
 ### Want more? 
 Check original awesome-redux [xgrommx/awesome-redux ;))) ](https://github.com/xgrommx/awesome-redux)
+
+#### WIP (Work In Progress) notes:  
+* [Reactima notes on Immutable.js](Notes/Immutable.md)  
+* [Reactima notes on Node.js Dev/Sys/OOOPS](DEVOPS.md) 
+* [Reactima: Aim to be in Top 3% by learning screening process](Notes/TopSmth.md)  
