@@ -5,7 +5,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * Redux Mafia: [Dan Abramov](https://github.com/gaearon), [React Europe](https://www.react-europe.org/), [Rackt](https://github.com/orgs/rackt/people)
 * [Redux Github](https://github.com/rackt/redux)
 * [Documentation of Redux](http://rackt.github.io/redux)
-* :clapper: [Getting Started with Redux](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree?series=getting-started-with-redux)
+* :clapper: [Getting Started with Redux](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree?series=getting-started-with-redux) - great video intro from egghead.io 
 
 ### PACKAGE.JSON
 * [React.js](http://facebook.github.io/react)
