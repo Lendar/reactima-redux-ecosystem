@@ -5,7 +5,7 @@ This is an attempt to collect all devops and security issues rising arround ES6/
 * [Grafana](http://grafana.org/) - the leading graph and dashboard builder for visualizing time series metrics. 
 * [tj/mon](https://github.com/tj/mon) tj's replacement of monit
 * [AWS in plain English](https://www.expeditedssl.com/aws-in-plain-english)
-* [:fire:Visualizing Docker Containers and Images](http://merrigrove.blogspot.ru/2015/10/visualizing-docker-containers-and-images.html)
+* :fire:[Visualizing Docker Containers and Images](http://merrigrove.blogspot.ru/2015/10/visualizing-docker-containers-and-images.html)
 
 ## Docker
 * https://www.datadoghq.com/docker-adoption/
@@ -17,7 +17,7 @@ This is an attempt to collect all devops and security issues rising arround ES6/
 
 ## GIT
 * [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-* [Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
+* :fire:[Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
 
 ### Security
 * [OAuth Has Ruined Everything](http://developer.telerik.com/featured/oauth-has-ruined-everything/)
