@@ -9,7 +9,7 @@ This is an attempt to collect all devops and security issues rising arround ES6/
 
 ## Docker
 * https://www.datadoghq.com/docker-adoption/
-* [Docker Swarm](https://docs.docker.com/swarm/) Docker Swarm is native clustering for Docker. It allows you create and access to a pool of Docker hosts using the full suite of Docker tools. Because Docker Swarm serves the standard Docker API, any tool that already communicates with a Docker daemon can use Swarm to transparently scale to multiple hosts. 
+* [Docker Swarm](https://docs.docker.com/swarm/) Docker Swarm is native clustering for Docker, it allows you create and access to a pool of Docker hosts using the full suite of Docker tools. Because Docker Swarm serves the standard Docker API, any tool that already communicates with a Docker daemon can use Swarm to transparently scale to multiple hosts. 
 
 ##Node
 * [10 Habits of a Happy Node Hacker (2016)](http://blog.heroku.com/archives/2015/11/10/node-habits-2016#6-be-environmentally-aware)
