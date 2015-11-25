@@ -25,34 +25,28 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 
 ### TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
-* [Webpack] (https://webpack.github.io/)
+* [Webpack] (https://webpack.github.io/) - helps to reduce css, helps to split js code for faster downloads
 * [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
 
 > Babel should be able to power minifiers, linters, formatters, syntax highlighters, code completion tools, type checkers, codemod tools, and every other tool to be using the same foundation to do their job better than ever before.
 
-- [ ] Learn how to reduce css
-- [ ] Learn how to split js code for faster downloads 
 * [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces)
 * [CSS Modules](https://github.com/css-modules/css-modules) 
-  * BEST [CSS Modules Welcome to the Future](http://glenmaddern.com/articles/css-modules)
-  * - [ ] What's next? SASS >> PostCSS >> CSS Modules >> ???
-  * [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
-    * [SASS](https://github.com/sass/sass)
-    * [PostCSS](https://github.com/postcss/postcss)
-* [JSCS — JavaScript Code Style](http://jscs.info/) from bunch of Russians ;))
+  * What's next? SASS >> PostCSS >> CSS Modules >> ??? [CSS Modules Welcome to the Future](http://glenmaddern.com/articles/css-modules)
+  * History [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
+* [JSCS — JavaScript Code Style](http://jscs.info/) linting from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
 * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
-* [Debugging Memory Leaks in Node.js Applications](http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications)
 
 ### Articles And Tutorials
-* [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#immutable-data-and-pure-rendering
+* [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#immutable-data-and-pure-rendering)
 * [DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * [Tutorial: Handcrafting an Isomorphic Redux Application (With Love)](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
 * [Understanding Redux Middleware](https://medium.com/@meagle/understanding-87566abcfb7a)
 * [Redux Middleware: Behind the Scenes](http://briantroncone.com/?p=529)
 * [Full-Stack Redux Tutorial - A Comprehensive Guide to Test-First Development with Redux, React, and Immutable](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) Source [Server](https://github.com/teropa/redux-voting-server) + [Client](https://github.com/teropa/redux-voting-client)
 * [Redux best practices](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e)
-* [Building a boilerplate for a Koa, Redux, React application including Webpack, Mocha and SASS](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/) - This article explains in detail how [this koa-redux-react-boilerplate](https://github.com/mezod/boilerplate-koa-redux-react) was built and the technologies it uses.
+* [Building a boilerplate for a Koa, Redux, React application including Webpack, Mocha and SASS](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/) - this article explains in detail how [this koa-redux-react-boilerplate](https://github.com/mezod/boilerplate-koa-redux-react) was built and the technologies it uses.
 
 ### Boilerplates
 * [Ripster](https://github.com/vslinko/ripster)
@@ -80,7 +74,6 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 
 
 ### Tools
-* Andrew Clark @acdlite https://github.com/acdlite
 * [redux-devtools - DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * READ! [replux - Self contained components and enhancements for Redux](https://github.com/gregthebusker/replux)
 * [redux-devtools-gentest-plugin - Generate mocha like tests from redux-devtools session](https://github.com/lapanoid/redux-devtools-gentest-plugin)
@@ -98,12 +91,6 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 ### Chrome Extensions
 * [Redux Chrome Extension](https://github.com/Dharmoslap/redux-chrome-extension)
 * [React Chrome Extension Boilerplate](https://github.com/jhen0409/react-chrome-extension-boilerplate)
-
-###  Moji
-* :metal: - Universal (Isomorphic)
-* :fire: - [Hot Reload](http://gaearon.github.io/react-hot-loader)
-* [EMOJI CHEAT SHEET](http://www.emoji-cheat-sheet.com/)
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### Want more? 
 Check original awesome-redux [xgrommx/awesome-redux ;))) ](https://github.com/xgrommx/awesome-redux)

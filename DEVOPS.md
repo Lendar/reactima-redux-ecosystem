@@ -14,6 +14,7 @@ This is an attempt to collect all devops and security issues rising arround ES6/
 ##Node
 * [10 Habits of a Happy Node Hacker (2016)](http://blog.heroku.com/archives/2015/11/10/node-habits-2016#6-be-environmentally-aware)
 * [Node.js Interview Questions and Answers](https://blog.risingstack.com/node-js-interview-questions/)
+* [Debugging Memory Leaks in Node.js Applications](http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications)
 
 ## GIT
 * [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
