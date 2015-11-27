@@ -13,12 +13,12 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [redux-router - Redux bindings for React Router – keep your router state inside your Redux store](https://github.com/rackt/redux-router)
 * [superagent](https://github.com/visionmedia/superagent) for isomorphic calls to APIs
 * [Immutable.js](https://facebook.github.io/immutable-js/) 
-    * - [ ]  [ramda](https://github.com/ramda/ramda) vs [lodash](https://lodash.com/docs#map) Which (fun) is the best?
+* [ramda](https://github.com/ramda/ramda) 
 * [Koa Examples](https://github.com/koajs/examples)
   * [Introduction to Generators & Koa.js: Part 1](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-1--cms-21615)
   * [Introduction to Generators & Koa.js: Part 2](http://code.tutsplus.com/tutorials/introduction-to-generators-koajs-part-2--cms-21756)
   
-> :octocat:: Better to understand before moving ahead with ES7 await/async approach
+> :octocat:: Better to understand Co before moving ahead with ES7 await/async approach
 
 * [Co](https://github.com/tj/co) - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way. 
 
@@ -27,10 +27,11 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [Webpack] (https://webpack.github.io/) - helps to reduce css, helps to split js code for faster downloads
 * [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
-
+  * [babel-plugin-handbook](https://github.com/thejameskyle/babel-plugin-handbook)
 > Babel should be able to power minifiers, linters, formatters, syntax highlighters, code completion tools, type checkers, codemod tools, and every other tool to be using the same foundation to do their job better than ever before.
 
 * [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces)
+* [Chai Assertion Library](http://chaijs.com)
 * [CSS Modules](https://github.com/css-modules/css-modules) 
   * What's next? SASS >> PostCSS >> CSS Modules >> ??? [CSS Modules Welcome to the Future](http://glenmaddern.com/articles/css-modules)
   * History [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
@@ -39,7 +40,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
   * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 
 ### Articles And Tutorials
-* [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#immutable-data-and-pure-rendering)
+* :fire: [teropa.info: Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#immutable-data-and-pure-rendering)
 * [DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * [Tutorial: Handcrafting an Isomorphic Redux Application (With Love)](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
 * [Understanding Redux Middleware](https://medium.com/@meagle/understanding-87566abcfb7a)
@@ -53,7 +54,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Koa :octocat:](https://github.com/koajs/koa)
     * [Isomorphic (Koa + Redux)](https://github.com/khtdr/redux-react-koa-isomorphic-counter-example) :metal:
     * [isomorphic-react-redux-koa](https://github.com/davezuko/isomorphic-react-redux-koa) :metal:
-    * [Sliced Haskell fragments](https://github.com/rwilhelm/slices) Universal + RethinkDB + ElasticSearch + lots of good stuff :fire:
+    * [Sliced Haskell fragments](https://github.com/rwilhelm/slices) Universal + RethinkDB + ElasticSearch + lots of good stuff 
 
 ### Middleware
 * SUPER [react-dom-stream] (https://github.com/aickin/react-dom-stream)
