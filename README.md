@@ -34,9 +34,9 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [CSS Modules](https://github.com/css-modules/css-modules) 
   * What's next? SASS >> PostCSS >> CSS Modules >> ??? [CSS Modules Welcome to the Future](http://glenmaddern.com/articles/css-modules)
   * History [PostCSS vs SASS: Breaking up with Sass: it’s not you, it’s me](http://benfrain.com/breaking-up-with-sass-postcss/)
-* [JSCS — JavaScript Code Style](http://jscs.info/) linting from bunch of Russians ;))
 * [ESLint: The Next-Generation JavaScript Linter](http://www.smashingmagazine.com/2015/09/eslint-the-next-generation-javascript-linter/)
-* [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
+  * [ESLint](http://eslint.org/) is flexible and powerful enough to replace the functionality of jshint and [JSCS](http://jscs.info/)(linting from bunch of Russians ;)) tools [RFC: switch to eslint #1529](https://github.com/ramda/ramda/pull/1529)
+  * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 
 ### Articles And Tutorials
 * [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#immutable-data-and-pure-rendering)
