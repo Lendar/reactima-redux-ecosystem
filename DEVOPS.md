@@ -1,5 +1,11 @@
 ## Node.js & Devops related notes
 This is an attempt to collect all devops and security issues rising arround ES6/Node/React/Redux ecosystem
+
+### GIT
+* [How to Write an Open Source JavaScript Library](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-setting-up-github?series=how-to-write-an-open-source-javascript-library)
+* [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+* :fire:[Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
+
 * [97-things-every-programmer-should-know](https://github.com/xmalinov/97-things-every-programmer-should-know/blob/master/en/SUMMARY.md)
 * [What PostgreSQL has over other open source SQL databases: Part II](https://www.compose.io/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/)
 * [Grafana](http://grafana.org/) - the leading graph and dashboard builder for visualizing time series metrics. 
@@ -16,9 +22,6 @@ This is an attempt to collect all devops and security issues rising arround ES6/
 * [Node.js Interview Questions and Answers](https://blog.risingstack.com/node-js-interview-questions/)
 * [Debugging Memory Leaks in Node.js Applications](http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications)
 
-### GIT
-* [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-* :fire:[Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
 
 ### Security
 * [OAuth Has Ruined Everything](http://developer.telerik.com/featured/oauth-has-ruined-everything/)
