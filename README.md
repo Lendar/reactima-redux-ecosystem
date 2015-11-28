@@ -39,9 +39,8 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 
 ### Articles And Tutorials
 * :fire: teropa.info [Full-Stack Redux Tutorial - A Comprehensive Guide to Test-First Development with Redux, React, and Immutable](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) 
-  * [Client](https://github.com/teropa/redux-voting-client)
+  * Source [Client](https://github.com/teropa/redux-voting-client)
   * Source [Server](https://github.com/teropa/redux-voting-server)
-* [DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * [Tutorial: Handcrafting an Isomorphic Redux Application (With Love)](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
 * [Understanding Redux Middleware](https://medium.com/@meagle/understanding-87566abcfb7a)
 * [Redux Middleware: Behind the Scenes](http://briantroncone.com/?p=529)
@@ -49,6 +48,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Building a boilerplate for a Koa, Redux, React application including Webpack, Mocha and SASS](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/) - this article explains in detail how [this koa-redux-react-boilerplate](https://github.com/mezod/boilerplate-koa-redux-react) was built and the technologies it uses.
 
 ### Boilerplates
+* [DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * [Ripster](https://github.com/vslinko/ripster)
 * [Koa :octocat:](https://github.com/koajs/koa)
     * [Isomorphic (Koa + Redux)](https://github.com/khtdr/redux-react-koa-isomorphic-counter-example) :metal:
