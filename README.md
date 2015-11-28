@@ -21,9 +21,6 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 > :octocat:: Better to understand Co before moving ahead with ES7 await/async approach
 
 * [Co](https://github.com/tj/co) - Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way. 
-
-
-### TOOLS & LIBRARIES
 * [npm](https://docs.npmjs.com/getting-started/what-is-npm) 
 * [Webpack] (https://webpack.github.io/) - helps to reduce css, helps to split js code for faster downloads
 * [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
