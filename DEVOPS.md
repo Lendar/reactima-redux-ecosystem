@@ -2,7 +2,7 @@
 This is an attempt to collect all devops and security issues rising arround ES6/Node/React/Redux ecosystem
 
 ### GIT
-* [How to Write an Open Source JavaScript Library](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-setting-up-github?series=how-to-write-an-open-source-javascript-library)
+* :clapper: egghead.io [How to Write an Open Source JavaScript Library](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-setting-up-github?series=how-to-write-an-open-source-javascript-library)
 * [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 * :fire:[Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
 
