@@ -1,5 +1,6 @@
 Back [REDUX ecosystem notes] (README.md) 
-[ES6 Overview](https://github.com/reactima/reactima-es6-tips/blob/master/README.md)
+* [ES6 Overview](https://github.com/reactima/reactima-es6-tips/blob/master/README.md)
+* [Node.js & Devops](DEVOPS.md)
 
 ## JS Interview prep links
 * Learn how to write minimal code and reproduce issues on github ... ;) [source](https://github.com/babel/babel/issues/2455#issuecomment-144123318)
