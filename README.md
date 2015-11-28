@@ -28,7 +28,6 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Babel Learn ES2015](https://babeljs.io/docs/learn-es2015/)
   * [babel-plugin-handbook](https://github.com/thejameskyle/babel-plugin-handbook)
 > Babel should be able to power minifiers, linters, formatters, syntax highlighters, code completion tools, type checkers, codemod tools, and every other tool to be using the same foundation to do their job better than ever before.
-
 * [Mocha](http://mochajs.org) - simple, flexible, fun javascript test framework for node.js & the browser. (BDD, TDD, QUnit styles via interfaces)
 * [Chai Assertion Library](http://chaijs.com)
 * [CSS Modules](https://github.com/css-modules/css-modules) 
@@ -39,12 +38,13 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
   * [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
 
 ### Articles And Tutorials
-* :fire: [teropa.info: Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#immutable-data-and-pure-rendering)
+* :fire: teropa.info [Full-Stack Redux Tutorial - A Comprehensive Guide to Test-First Development with Redux, React, and Immutable](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) 
+  * [Client](https://github.com/teropa/redux-voting-client)
+  * Source [Server](https://github.com/teropa/redux-voting-server)
 * [DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * [Tutorial: Handcrafting an Isomorphic Redux Application (With Love)](https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4)
 * [Understanding Redux Middleware](https://medium.com/@meagle/understanding-87566abcfb7a)
 * [Redux Middleware: Behind the Scenes](http://briantroncone.com/?p=529)
-* [Full-Stack Redux Tutorial - A Comprehensive Guide to Test-First Development with Redux, React, and Immutable](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) Source [Server](https://github.com/teropa/redux-voting-server) + [Client](https://github.com/teropa/redux-voting-client)
 * [Redux best practices](https://medium.com/lexical-labs-engineering/redux-best-practices-64d59775802e)
 * [Building a boilerplate for a Koa, Redux, React application including Webpack, Mocha and SASS](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/) - this article explains in detail how [this koa-redux-react-boilerplate](https://github.com/mezod/boilerplate-koa-redux-react) was built and the technologies it uses.
 
