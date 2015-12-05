@@ -31,3 +31,70 @@ This is an attempt to collect all devops and security issues rising arround ES6/
 * git-scm.com [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 * :fire:[Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
 * [Visualizing Git Concepts with D3](https://onlywei.github.io/explain-git-with-d3/#rebase)
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+
+#### Creating a feature branch 
+```
+git checkout -b myfeature develop //Switched to a new branch "myfeature"
+``` 
+#### Incorporating a finished feature on develop ¶ 
+```
+git checkout develop
+git merge --no-ff myfeature
+git branch -d myfeature
+git push origin develop
+```
+#### Creating a release branch ¶
+```
+git checkout -b release-1.2 develop
+./bump-version.sh 1.2
+git commit -a -m "Bumped version number to 1.2"
+```
+#### Finishing a release branch ¶
+```
+git checkout master
+git merge --no-ff release-1.2
+git tag -a 1.2
+```
+ * To keep the changes made in the release branch, we need to merge those back into develop, though. In Git:
+```
+git checkout develop
+git merge --no-ff release-1.2
+Merge made by recursive.
+```
+ * This step may well lead to a merge conflict (probably even, since we have changed the version number). If so, fix it and commit.
+```
+git branch -d release-1.2
+```
+#### Creating the hotfix branch 
+```
+git checkout -b hotfix-1.2.1 master
+./bump-version.sh 1.2.1
+git commit -a -m "Bumped version number to 1.2.1"
+```
+  * Then, fix the bug and commit the fix in one or more separate commits.
+```
+git commit -m "Fixed severe production problem"
+```
+#### Finishing a hotfix branch
+```
+git checkout master
+git merge --no-ff hotfix-1.2.1
+git tag -a 1.2.1
+```
+ * Next, include the bugfix in develop, too:
+```
+git checkout develop
+git merge --no-ff hotfix-1.2.1
+```
+The one exception to the rule here is that, when a release branch currently exists, the hotfix changes need to be merged into that release branch, instead of develop. Back-merging the bugfix into the release branch will eventually result in the bugfix being merged into develop too, when the release branch is finished. (If work in develop immediately requires this bugfix and cannot wait for the release branch to be finished, you may safely merge the bugfix into develop now already as well.)
+
+ * Finally, remove the temporary branch:
+```
+git branch -d hotfix-1.2.1
+```
+
+http://nvie.com/img/git-model@2x.png
+
+
+
