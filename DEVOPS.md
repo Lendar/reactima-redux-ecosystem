@@ -94,7 +94,7 @@ The one exception to the rule here is that, when a release branch currently exis
 git branch -d hotfix-1.2.1
 ```
 
-http://nvie.com/img/git-model@2x.png
+![go](http://nvie.com/img/git-model@2x.png)
 
 
 
