@@ -11,12 +11,15 @@ Back [REDUX ecosystem notes] (README.md)
 * [Interview questions by Paul Irish ] (http://h5bp.github.io/Front-end-Developer-Interview-Questions/)
 * [How to design large AngularJS applications that scale Sebastian Fröstl and Gernot Höflechner] (https://www.youtube.com/watch?v=eel3mV0alEc)
   * [Top 3% screening process from TopSmth](TopSmth.md)
+  
 
 ### (:tea:FUN)CTIONAL Books on ES6/ES2015
 * :muscle: [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/)
 
 ### Books JS/ES6/ES2015
 * :muscle: :tea: [@_ericelliott](https://twitter.com/_ericelliott) Eric Elliott [Programming JavaScript Applications 2014](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
+* :muscle: :tea: [@_ericelliott](https://twitter.com/_ericelliott) Eric Elliott 
+* [Learn JavaScript Universal App Development 2016](https://leanpub.com/learn-javascript-react-nodejs-es6)
 * [@slicknet](https://twitter.com/slicknet) Nicholas C. Zakas [Understanding ECMAScript 6 2015](https://leanpub.com/understandinges6) ... 60% complete
 * :muscle: [@rauschma](https://twitter.com/rauschma) Dr. Axel Rauschmayer [Exploring ES6 2015](http://exploringjs.com/es6/)
 * :muscle: [@raganwald](https://twitter.com/raganwald) Reg Braithwaite [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix/read) aka  Programming from Functions to Classes in ECMAScript 2015
@@ -50,6 +53,7 @@ If you don’t understand prototypes,
 you don’t understand JavaScript.
 ```
 * [The Open Minded Explorer’s Guide to Object Composition](https://medium.com/javascript-scene/the-open-minded-explorer-s-guide-to-object-composition-88fe68961bed)
+* [Why Hiring is So Hard in Tech](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017#.mwsi2zy66)
  
 ### ES7 aka Crazy and beyond
 * [Stamp Specification: Composables](https://github.com/stampit-org/stamp-specification#stamp-specification-composables)
