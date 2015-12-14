@@ -54,6 +54,7 @@ you don’t understand JavaScript.
 ```
 * [The Open Minded Explorer’s Guide to Object Composition](https://medium.com/javascript-scene/the-open-minded-explorer-s-guide-to-object-composition-88fe68961bed)
 * [Why Hiring is So Hard in Tech](https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017#.mwsi2zy66)
+* [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a)
  
 ### ES7 aka Crazy and beyond
 * [Stamp Specification: Composables](https://github.com/stampit-org/stamp-specification#stamp-specification-composables)
