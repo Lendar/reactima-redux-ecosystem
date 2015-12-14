@@ -48,6 +48,7 @@ Redux - Predictable state container for JavaScript apps which makes you forget a
 * [Building a boilerplate for a Koa, Redux, React application including Webpack, Mocha and SASS](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/) - this article explains in detail how [this koa-redux-react-boilerplate](https://github.com/mezod/boilerplate-koa-redux-react) was built and the technologies it uses.
 
 ### Boilerplates
+* [Redux bindings for client-side search](https://treasure-data.github.io/redux-search/) Source:[redux-search](https://github.com/treasure-data/redux-search)
 * [DevTools for Redux with hot reloading, action replay, and customizable UI](https://github.com/gaearon/redux-devtools)
 * [Ripster](https://github.com/vslinko/ripster)
 * [Koa :octocat:](https://github.com/koajs/koa)
