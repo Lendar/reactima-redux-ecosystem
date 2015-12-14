@@ -1,12 +1,12 @@
 ## Best JS quotes and code extractions
 Just random copy&pastes from the web ... 
 
-* Ground Zero
-map, http://ramdajs.com/0.18.0/docs/#map [test](https://github.com/ramda/ramda/blob/master/test/map.js)
-filter, http://ramdajs.com/0.18.0/docs/#filter [test](https://github.com/ramda/ramda/blob/master/test/filter.js)
-concatAll, http://ramdajs.com/0.18.0/docs/#concat [test](https://github.com/ramda/ramda/blob/master/test/concat.js)
-reduce, http://ramdajs.com/0.18.0/docs/#reduce [test](https://github.com/ramda/ramda/blob/master/test/reduce.js)
-zip, http://ramdajs.com/0.18.0/docs/#zip [test](https://github.com/ramda/ramda/blob/master/test/zip.js)
+*0 Best Functional 5
+ * map, http://ramdajs.com/0.18.0/docs/#map [test](https://github.com/ramda/ramda/blob/master/test/map.js)
+ * filter, http://ramdajs.com/0.18.0/docs/#filter [test](https://github.com/ramda/ramda/blob/master/test/filter.js)
+ * concatAll, http://ramdajs.com/0.18.0/docs/#concat [test](https://github.com/ramda/ramda/blob/master/test/concat.js)
+ * reduce, http://ramdajs.com/0.18.0/docs/#reduce [test](https://github.com/ramda/ramda/blob/master/test/reduce.js)
+ * zip, http://ramdajs.com/0.18.0/docs/#zip [test](https://github.com/ramda/ramda/blob/master/test/zip.js)
 
 
 * 0 The `new` keyword does is:
