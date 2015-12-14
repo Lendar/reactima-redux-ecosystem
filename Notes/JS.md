@@ -2,11 +2,11 @@
 Just random copy&pastes from the web ... 
 
 * Ground Zero
-map, http://ramdajs.com/0.18.0/docs/#map https://github.com/ramda/ramda/blob/master/test/map.js
-filter, http://ramdajs.com/0.18.0/docs/#filter https://github.com/ramda/ramda/blob/master/test/filter.js
-concatAll, http://ramdajs.com/0.18.0/docs/#concat https://github.com/ramda/ramda/blob/master/test/concat.js
-reduce, http://ramdajs.com/0.18.0/docs/#reduce https://github.com/ramda/ramda/blob/master/test/reduce.js
-zip, http://ramdajs.com/0.18.0/docs/#zip https://github.com/ramda/ramda/blob/master/test/zip.js
+map, http://ramdajs.com/0.18.0/docs/#map [test](https://github.com/ramda/ramda/blob/master/test/map.js)
+filter, http://ramdajs.com/0.18.0/docs/#filter [test](https://github.com/ramda/ramda/blob/master/test/filter.js)
+concatAll, http://ramdajs.com/0.18.0/docs/#concat [test](https://github.com/ramda/ramda/blob/master/test/concat.js)
+reduce, http://ramdajs.com/0.18.0/docs/#reduce [test](https://github.com/ramda/ramda/blob/master/test/reduce.js)
+zip, http://ramdajs.com/0.18.0/docs/#zip [test](https://github.com/ramda/ramda/blob/master/test/zip.js)
 
 
 * 0 The `new` keyword does is:
