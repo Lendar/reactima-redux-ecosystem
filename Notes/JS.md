@@ -9,7 +9,39 @@ Just random copy&pastes from the web ...
  * zip, http://ramdajs.com/0.18.0/docs/#zip [test](https://github.com/ramda/ramda/blob/master/test/zip.js)
 
 
-* 0 The `new` keyword does is:
+* 0 [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a)
+
+```javascript
+let animal = {
+    animalType: 'animal',
+
+    describe () {
+        return `An ${this.animalType} with ${this.furColor} fur,
+  ${this.legs} legs, and a ${this.tail} tail.`;
+    }
+};
+
+let mouseFactory = function mouseFactory () {
+    let secret = 'secret agent';
+
+    return Object.assign(Object.create(animal), {
+        animalType: 'mouse',
+        furColor: 'brown',
+        legs: 4,
+        tail: 'long, skinny',
+        profession () {
+            return secret;
+        }
+    });
+};
+
+let james = mouseFactory();
+
+console.log(james.secret) // undefinded
+console.log(james.profession()) // secret agent
+```
+
+The `new` keyword does is:
  * Create a new instance
  * Bind `this` to the new instance
  * Reference the new object’s delegate [[Prototype]] to the object referenced by the constructor function’s `prototype` property.
