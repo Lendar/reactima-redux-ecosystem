@@ -2,11 +2,20 @@
 Just random copy&pastes from the web ... 
 
 * Ground Zero
-map, http://ramdajs.com/0.18.0/docs/#map
-filter, http://ramdajs.com/0.18.0/docs/#filter
-concatAll, http://ramdajs.com/0.18.0/docs/#concat
-reduce, http://ramdajs.com/0.18.0/docs/#reduce
-zip, http://ramdajs.com/0.18.0/docs/#zip
+map, http://ramdajs.com/0.18.0/docs/#map https://github.com/ramda/ramda/blob/master/test/map.js
+filter, http://ramdajs.com/0.18.0/docs/#filter https://github.com/ramda/ramda/blob/master/test/filter.js
+concatAll, http://ramdajs.com/0.18.0/docs/#concat https://github.com/ramda/ramda/blob/master/test/concat.js
+reduce, http://ramdajs.com/0.18.0/docs/#reduce https://github.com/ramda/ramda/blob/master/test/reduce.js
+zip, http://ramdajs.com/0.18.0/docs/#zip https://github.com/ramda/ramda/blob/master/test/zip.js
+
+
+* 0 The `new` keyword does is:
+ * Create a new instance
+ * Bind `this` to the new instance
+ * Reference the new object’s delegate [[Prototype]] to the object referenced by the constructor function’s `prototype` property.
+ * Names the object type after the constructor, which you’ll notice mostly in the debugging console. You’ll see `[Object Foo]`, for example, instead of `[Object object]`.
+ * Allows `instanceof` to check whether or not an object’s prototype reference is the same object referenced by the .prototype property of the constructor.
+
 
 * 0 An example of ES6 class inheritance
 ```javascript
