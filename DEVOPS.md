@@ -29,6 +29,8 @@ This is an attempt to collect all devops and security issues rising arround ES6/
 ### GIT
 * :clapper: egghead.io [How to Write an Open Source JavaScript Library](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-setting-up-github?series=how-to-write-an-open-source-javascript-library)
 * git-scm.com [Git Basics](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+* [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
+* :bomb: [Changing Git history or what to do when you have a mess on your hands](http://justinhileman.info/article/git-pretty/)
 * :fire:[Getting Started – Git-Flow](http://yakiloo.com/getting-started-git-flow/)
 * [Visualizing Git Concepts with D3](https://onlywei.github.io/explain-git-with-d3/#rebase)
 * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
