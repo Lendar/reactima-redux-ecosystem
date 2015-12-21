@@ -3,14 +3,14 @@ Back [REDUX ecosystem notes] (README.md)
 * [Node.js & Devops](DEVOPS.md)
 
 ## JS Interview prep links
-* Learn how to write minimal code and reproduce issues on github ... ;) [source](https://github.com/babel/babel/issues/2455#issuecomment-144123318)
+* Learn how to write minimal code and reproduce issues on github ... ;) [source](https://phabricator.babeljs.io/T2455#59890)
 ```
 ({})['XYй'.slice(0, 2)] = null 
 ```
 * [10 Interview Questions Every JavaScript Developer Should Know AKA: The Keys to JavaScript Mastery] (https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 * [Interview questions by Paul Irish ] (http://h5bp.github.io/Front-end-Developer-Interview-Questions/)
 * [How to design large AngularJS applications that scale Sebastian Fröstl and Gernot Höflechner] (https://www.youtube.com/watch?v=eel3mV0alEc)
-  * [Top 3% screening process from TopSmth](TopSmth.md)
+  * [Top 3% screening process from TopSmth](Notes/TopSmth.md)
   
 
 ### (:tea:FUN)CTIONAL Books on ES6/ES2015
